@@ -1,1 +1,1 @@
-My_creation
+This report provides a detailed overview of the sales performance, returns, item-wise sales, customer-wise contribution, and profitability analysis for a food business. Data visualizations from the Power BI dashboard present insights across time, item categories, and geographies to support strategic decision-making.
