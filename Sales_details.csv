@@ -1,0 +1,1001 @@
+Bill_No,bill_date,Customer_Name,item_name,item_unique_code,quantity,sell_price,cost_price,discount_%,bill_total,Net_Bill
+1,2022-01-01, Anjali Malhotra,Rajma Chawal,Raj_021,2,101.09,70.77,0.05,202.18,192.07
+2,2022-01-02, Isha Kaul,Fish Curry,Fis_010,5,212.1,141.54,0.05,1060.5,1007.47
+3,2022-01-02, Neha Chauhan,Masala Dosa,Mas_015,4,50.75,30.33,0.08,203,187.42
+4,2022-01-03, Rohit Paul,Veg Pulao,Veg_025,4,80.8,50.55,0.03,323.2,313.95
+5,2022-01-03, Sneha Verma,Egg Curry,Egg_009,3,111.1,70.77,0.05,333.3,316.63
+6,2022-01-04, Sneha Kapoor,Dal Makhani,Dal_007,5,141.74,90.99,0.08,708.7,654.34
+7,2022-01-06, Rahul Pandey,Rajma Chawal,Raj_021,5,101.09,70.77,0.05,505.45,480.17
+8,2022-01-07, Anjali Singh,Kathi Roll,Kat_013,3,75.75,50.55,0.05,227.25,215.88
+9,2022-01-08, Rohit Sen,Paneer Tikka,Pan_018,2,182.73,121.32,0.08,365.46,337.42
+10,2022-01-10, Rohit Sen,Chicken Curry,Chi_005,2,202.8,131.43,0.05,405.6,385.32
+11,2022-01-12, Isha Ghosh,Masala Dosa,Mas_015,5,50.75,30.33,0.03,253.75,246.49
+12,2022-01-19, Neha Pandey,Dal Makhani,Dal_007,5,141.74,90.99,0.05,708.7,673.26
+13,2022-01-19, Rahul Dubey,Mutton Rogan Josh,Mut_016,5,272.7,181.98,0.03,1363.5,1324.5
+14,2022-01-22, Ravi Bhatia,Vada Pav,Vad_024,5,25.25,15.165,0.03,126.25,122.63
+15,2022-01-27, Rahul Sinha,Aloo Paratha,Alo_001,2,65.9,40.44,0.05,131.8,125.21
+16,2022-01-28, Anjali Thakur,Tandoori Chicken,Tan_023,5,242.4,161.76,0.05,1212,1151.4
+17,2022-01-29, Isha Gill,Tandoori Chicken,Tan_023,5,242.4,161.76,0.08,1212,1119.03
+18,2022-01-31, Rohit Paul,Paneer Tikka,Pan_018,2,182.73,121.32,0.07,365.46,339.36
+19,2022-02-01, Rohit Banerjee,Tandoori Chicken,Tan_023,3,242.4,161.76,0.07,727.2,675.27
+20,2022-02-04, Anjali Bansal,Gulab Jamun,Gul_011,4,35.35,20.22,0.07,141.4,131.3
+21,2022-02-04, Sneha Kapoor,Samosa,Sam_022,5,20.2,10.11,0.08,101,93.25
+22,2022-02-05, Rahul Chauhan,Vada Pav,Vad_024,2,25.25,15.165,0.08,50.5,46.62
+23,2022-02-05, Rohit Paul,Masala Dosa,Mas_015,4,50.75,30.33,0.03,203,197.19
+24,2022-02-09, Amit Joshi,Chole Bhature,Cho_006,2,91.71,60.66,0.07,183.42,170.32
+25,2022-02-09, Sneha Mehta,Samosa,Sam_022,1,20.2,10.11,0.07,20.2,18.85
+26,2022-02-10, Neha Mishra,Chicken Curry,Chi_005,3,202.8,131.43,0.07,608.4,564.96
+27,2022-02-13, Ravi Ghosh,Idli Sambhar,Idl_012,1,56.33,35.385,0.08,56.33,52
+28,2022-02-19, Isha Lal,Fish Curry,Fis_010,3,212.1,141.54,0.05,636.3,604.48
+29,2022-02-19, Priya Sarkar,Egg Curry,Egg_009,5,111.1,70.77,0.08,555.5,512.89
+30,2022-02-23, Rohit Paul,Pav Bhaji,Pav_020,4,70.7,45.495,0.03,282.8,274.71
+31,2022-02-27, Ravi Kaul,Palak Paneer,Pal_017,2,161.6,101.1,0.07,323.2,300.12
+32,2022-03-01, Vikram Rao,Masala Dosa,Mas_015,1,50.75,30.33,0.03,50.75,49.29
+33,2022-03-02, Isha Gill,Kathi Roll,Kat_013,5,75.75,50.55,0.08,378.75,349.69
+34,2022-03-02, Ravi Grover,Vada Pav,Vad_024,3,25.25,15.165,0.05,75.75,71.96
+35,2022-03-04, Isha Grover,Kathi Roll,Kat_013,5,75.75,50.55,0.08,378.75,349.69
+36,2022-03-05, Priya Banerjee,Aloo Paratha,Alo_001,5,65.9,40.44,0.07,329.5,307.52
+37,2022-03-08, Ravi Kaul,Baingan Bharta,Bai_002,2,96.05,60.66,0.08,192.1,177.36
+38,2022-03-08, Sneha Verma,Baingan Bharta,Bai_002,2,96.05,60.66,0.05,192.1,182.49
+39,2022-03-09, Sneha Gupta,Idli Sambhar,Idl_012,2,56.33,35.385,0.05,112.66,107.02
+40,2022-03-10, Isha Lal,Pav Bhaji,Pav_020,3,70.7,45.495,0.05,212.1,201.49
+41,2022-03-11, Isha Lal,Kathi Roll,Kat_013,2,75.75,50.55,0.05,151.5,143.92
+42,2022-03-11, Ravi Ghosh,Dal Makhani,Dal_007,1,141.74,90.99,0.08,141.74,130.86
+43,2022-03-13, Sneha Nair,Egg Curry,Egg_009,5,111.1,70.77,0.07,555.5,518.44
+44,2022-03-14, Anjali Jain,Aloo Paratha,Alo_001,5,65.9,40.44,0.08,329.5,304.22
+45,2022-03-14, Sneha Mehta,Idli Sambhar,Idl_012,1,56.33,35.385,0.07,56.33,52.57
+46,2022-03-15, Rahul Tiwari,Vada Pav,Vad_024,3,25.25,15.165,0.07,75.75,70.34
+47,2022-03-15, Sneha Reddy,Pani Puri,Pan_019,3,15.15,5.055,0.07,45.45,42.41
+48,2022-03-15, Vikram Jain,Baingan Bharta,Bai_002,5,96.05,60.66,0.05,480.25,456.23
+49,2022-03-19, Sneha Reddy,Butter Chicken,But_004,3,222.54,151.65,0.07,667.62,623.08
+50,2022-03-20, Amit Nair,Rajma Chawal,Raj_021,1,101.09,70.77,0.05,101.09,96.03
+51,2022-03-20, Anjali Malhotra,Kathi Roll,Kat_013,5,75.75,50.55,0.03,378.75,367.91
+52,2022-03-21, Neha Tripathi,Masala Dosa,Mas_015,4,50.75,30.33,0.07,203,188.5
+53,2022-03-21, Ravi Bhatia,Palak Paneer,Pal_017,3,161.6,101.1,0.07,484.8,450.18
+54,2022-03-22, Rahul Bhatt,Butter Chicken,But_004,1,222.54,151.65,0.03,222.54,216.17
+55,2022-03-22, Sneha Patel,Samosa,Sam_022,4,20.2,10.11,0.08,80.8,74.6
+56,2022-03-22, Vikram Singh,Pav Bhaji,Pav_020,1,70.7,45.495,0.07,70.7,65.65
+57,2022-03-23, Ravi Rawat,Palak Paneer,Pal_017,1,161.6,101.1,0.03,161.6,156.97
+58,2022-03-24, Rohit Sen,Kathi Roll,Kat_013,1,75.75,50.55,0.03,75.75,73.58
+59,2022-03-26, Vikram Menon,Dal Makhani,Dal_007,4,141.74,90.99,0.03,566.96,550.74
+60,2022-03-26, Vikram Saxena,Idli Sambhar,Idl_012,5,56.33,35.385,0.05,281.65,267.56
+61,2022-03-30, Amit Gupta,Rajma Chawal,Raj_021,1,101.09,70.77,0.05,101.09,96.03
+62,2022-03-30, Neha Agarwal,Masala Dosa,Mas_015,4,50.75,30.33,0.07,203,188.5
+1100,2022-03-30, Neha Agarwal,Veg Pulao,Veg_025,1,80.8,50.55,0.07,80.8,75.41
+63,2022-03-30, Sneha Kapoor,Egg Curry,Egg_009,5,111.1,70.77,0.05,555.5,527.72
+64,2022-04-01, Ravi Lal,Palak Paneer,Pal_017,1,161.6,101.1,0.07,161.6,150.06
+65,2022-04-02, Amit Patel,Paneer Tikka,Pan_018,4,182.73,121.32,0.05,730.92,694.37
+66,2022-04-04, Vikram Das,Chicken Curry,Chi_005,1,202.8,131.43,0.05,202.8,192.66
+67,2022-04-06, Isha Grover,Biryani,Bir_003,5,152.25,101.1,0.08,761.25,702.86
+68,2022-04-06, Sneha Mehta,Dal Makhani,Dal_007,1,141.74,90.99,0.07,141.74,132.28
+69,2022-04-07, Amit Joshi,Tandoori Chicken,Tan_023,2,242.4,161.76,0.07,484.8,452.46
+70,2022-04-07, Neha Chauhan,Dal Makhani,Dal_007,3,141.74,90.99,0.07,425.22,396.85
+71,2022-04-11, Rohit Dey,Tandoori Chicken,Tan_023,1,242.4,161.76,0.03,242.4,235.46
+72,2022-04-11, Sneha Joshi,Dal Makhani,Dal_007,4,141.74,90.99,0.07,566.96,526.47
+73,2022-04-14, Amit Patel,Dhokla,Dho_008,4,50.85,30.33,0.05,203.4,193.23
+74,2022-04-15, Isha Gill,Chicken Curry,Chi_005,5,202.8,131.43,0.05,1014,963.3
+75,2022-04-16, Rahul Bhatt,Chole Bhature,Cho_006,2,91.71,60.66,0.05,183.42,174.24
+76,2022-04-17, Anjali Singh,Rajma Chawal,Raj_021,2,101.09,70.77,0.05,202.18,192.07
+77,2022-04-17, Neha Tripathi,Idli Sambhar,Idl_012,4,56.33,35.385,0.07,225.32,210.29
+78,2022-04-17, Priya Sen,Aloo Paratha,Alo_001,3,65.9,40.44,0.07,197.7,184.51
+79,2022-04-18, Ravi Gill,Idli Sambhar,Idl_012,3,56.33,35.385,0.08,168.99,156.02
+80,2022-04-19, Ravi Gill,Samosa,Sam_022,1,20.2,10.11,0.05,20.2,19.19
+81,2022-04-19, Rohit Basu,Fish Curry,Fis_010,3,212.1,141.54,0.05,636.3,604.48
+82,2022-04-21, Ravi Gill,Butter Chicken,But_004,2,222.54,151.65,0.07,445.08,415.39
+83,2022-04-22, Amit Joshi,Aloo Paratha,Alo_001,2,65.9,40.44,0.07,131.8,122.38
+84,2022-04-22, Isha Lal,Veg Pulao,Veg_025,4,80.8,50.55,0.05,323.2,307.04
+85,2022-04-22, Vikram Menon,Pav Bhaji,Pav_020,3,70.7,45.495,0.08,212.1,195.83
+86,2022-04-23, Ravi Kaul,Dal Makhani,Dal_007,2,141.74,90.99,0.07,283.48,263.23
+87,2022-04-25, Amit Nair,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.05,272.7,259.06
+88,2022-04-25, Isha Kaul,Dhokla,Dho_008,1,50.85,30.33,0.07,50.85,47.45
+89,2022-04-26, Neha Tiwari,Dal Makhani,Dal_007,5,141.74,90.99,0.05,708.7,673.26
+90,2022-04-28, Rohit Kumar,Biryani,Bir_003,1,152.25,101.1,0.08,152.25,140.57
+91,2022-04-29, Vikram Malhotra,Palak Paneer,Pal_017,3,161.6,101.1,0.03,484.8,470.93
+92,2022-04-30, Amit Desai,Rajma Chawal,Raj_021,3,101.09,70.77,0.07,303.27,281.61
+93,2022-04-30, Neha Bhatt,Samosa,Sam_022,5,20.2,10.11,0.05,101,95.95
+94,2022-04-30, Sneha Patel,Egg Curry,Egg_009,4,111.1,70.77,0.05,444.4,422.18
+95,2022-05-01, Rohit Banerjee,Dhokla,Dho_008,3,50.85,30.33,0.07,152.55,141.65
+96,2022-05-02, Anjali Singh,Gulab Jamun,Gul_011,1,35.35,20.22,0.05,35.35,33.58
+97,2022-05-03, Ravi Nanda,Pani Puri,Pan_019,3,15.15,5.055,0.03,45.45,44.15
+98,2022-05-05, Sneha Verma,Palak Paneer,Pal_017,2,161.6,101.1,0.05,323.2,307.04
+99,2022-05-06, Sneha Reddy,Vada Pav,Vad_024,3,25.25,15.165,0.07,75.75,70.69
+100,2022-05-07, Anjali Singh,Aloo Paratha,Alo_001,1,65.9,40.44,0.05,65.9,62.6
+101,2022-05-07, Neha Pandey,Baingan Bharta,Bai_002,5,96.05,60.66,0.05,480.25,456.23
+102,2022-05-08, Sneha Sharma,Pani Puri,Pan_019,5,15.15,5.055,0.03,75.75,73.58
+103,2022-05-11, Amit Reddy,Gulab Jamun,Gul_011,1,35.35,20.22,0.03,35.35,34.33
+104,2022-05-11, Rohit Sarkar,Biryani,Bir_003,1,152.25,101.1,0.05,152.25,144.63
+105,2022-05-13, Vikram Iyer,Fish Curry,Fis_010,3,212.1,141.54,0.08,636.3,587.49
+106,2022-05-17, Neha Mishra,Fish Curry,Fis_010,1,212.1,141.54,0.05,212.1,201.49
+107,2022-05-17, Rahul Roy,Pani Puri,Pan_019,1,15.15,5.055,0.07,15.15,14.06
+108,2022-05-17, Rohit Sen,Tandoori Chicken,Tan_023,1,242.4,161.76,0.03,242.4,235.46
+109,2022-05-18, Neha Tiwari,Fish Curry,Fis_010,5,212.1,141.54,0.08,1060.5,979.15
+110,2022-05-19, Rohit Banerjee,Fish Curry,Fis_010,3,212.1,141.54,0.05,636.3,604.48
+111,2022-05-20, Amit Verma,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.07,272.7,253.22
+112,2022-05-20, Priya Chatterjee,Butter Chicken,But_004,1,222.54,151.65,0.05,222.54,211.41
+113,2022-05-20, Rahul Roy,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.03,818.1,794.7
+114,2022-05-23, Isha Lal,Paneer Tikka,Pan_018,2,182.73,121.32,0.05,365.46,347.18
+115,2022-05-23, Isha Rawat,Chicken Curry,Chi_005,4,202.8,131.43,0.05,811.2,770.64
+116,2022-05-26, Rahul Sinha,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.03,818.1,794.7
+117,2022-05-27, Neha Pandey,Pav Bhaji,Pav_020,5,70.7,45.495,0.08,353.5,326.38
+118,2022-05-28, Ravi Kaul,Idli Sambhar,Idl_012,2,56.33,35.385,0.07,112.66,104.61
+119,2022-05-30, Rohit Sen,Biryani,Bir_003,1,152.25,101.1,0.03,152.25,147.89
+120,2022-05-30, Vikram Bansal,Samosa,Sam_022,4,20.2,10.11,0.03,80.8,78.48
+121,2022-05-31, Isha Bhatia,Masala Dosa,Mas_015,5,50.75,30.33,0.07,253.75,236.82
+122,2022-05-31, Neha Tiwari,Baingan Bharta,Bai_002,5,96.05,60.66,0.05,480.25,456.23
+123,2022-05-31, Sneha Kapoor,Baingan Bharta,Bai_002,1,96.05,60.66,0.07,96.05,89.64
+124,2022-06-01, Rahul Pandey,Butter Chicken,But_004,1,222.54,151.65,0.05,222.54,211.41
+125,2022-06-02, Neha Bhatt,Pav Bhaji,Pav_020,4,70.7,45.495,0.08,282.8,261.1
+126,2022-06-02, Sneha Desai,Baingan Bharta,Bai_002,3,96.05,60.66,0.05,288.15,273.74
+127,2022-06-03, Sneha Reddy,Palak Paneer,Pal_017,4,161.6,101.1,0.08,646.4,596.82
+128,2022-06-05, Amit Reddy,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.08,545.4,503.56
+129,2022-06-06, Anjali Malhotra,Chole Bhature,Cho_006,3,91.71,60.66,0.07,275.13,255.48
+130,2022-06-06, Priya Basu,Egg Curry,Egg_009,5,111.1,70.77,0.08,555.5,512.89
+131,2022-06-07, Amit Verma,Aloo Paratha,Alo_001,1,65.9,40.44,0.07,65.9,61.19
+132,2022-06-07, Sneha Desai,Idli Sambhar,Idl_012,3,56.33,35.385,0.05,168.99,160.54
+133,2022-06-08, Neha Tripathi,Baingan Bharta,Bai_002,4,96.05,60.66,0.07,384.2,358.57
+134,2022-06-11, Sneha Sharma,Palak Paneer,Pal_017,1,161.6,101.1,0.05,161.6,153.52
+135,2022-06-12, Amit Verma,Gulab Jamun,Gul_011,1,35.35,20.22,0.07,35.35,32.82
+136,2022-06-12, Anjali Bansal,Tandoori Chicken,Tan_023,4,242.4,161.76,0.07,969.6,904.92
+137,2022-06-12, Priya Kumar,Chole Bhature,Cho_006,5,91.71,60.66,0.03,458.55,445.43
+138,2022-06-16, Rahul Tripathi,Gulab Jamun,Gul_011,4,35.35,20.22,0.03,141.4,137.35
+139,2022-06-16, Vikram Menon,Chicken Curry,Chi_005,2,202.8,131.43,0.07,405.6,376.64
+140,2022-06-17, Ravi Grover,Pani Puri,Pan_019,3,15.15,5.055,0.05,45.45,43.17
+141,2022-06-18, Priya Basak,Mutton Rogan Josh,Mut_016,4,272.7,181.98,0.07,1090.8,1018.04
+142,2022-06-19, Rohit Mukherjee,Kathi Roll,Kat_013,1,75.75,50.55,0.05,75.75,71.96
+1101,2022-06-19, Rohit Mukherjee,Paneer Tikka,Pan_018,1,182.73,121.32,0.05,182.73,173.59
+143,2022-06-21, Amit Patel,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.03,272.7,264.9
+144,2022-06-22, Amit Mehta,Paneer Tikka,Pan_018,4,182.73,121.32,0.03,730.92,710.01
+145,2022-06-22, Neha Tiwari,Palak Paneer,Pal_017,5,161.6,101.1,0.07,808,754.1
+146,2022-06-22, Rahul Tripathi,Butter Chicken,But_004,2,222.54,151.65,0.07,445.08,413.3
+147,2022-06-23, Rahul Roy,Chole Bhature,Cho_006,2,91.71,60.66,0.05,183.42,174.24
+148,2022-06-24, Neha Dubey,Idli Sambhar,Idl_012,5,56.33,35.385,0.07,281.65,262.86
+149,2022-06-24, Rahul Tiwari,Butter Chicken,But_004,1,222.54,151.65,0.05,222.54,211.41
+150,2022-06-24, Sneha Kapoor,Palak Paneer,Pal_017,5,161.6,101.1,0.08,808,746.02
+151,2022-06-26, Sneha Patel,Idli Sambhar,Idl_012,4,56.33,35.385,0.08,225.32,208.03
+152,2022-06-26, Vikram Jain,Chicken Curry,Chi_005,1,202.8,131.43,0.05,202.8,192.66
+153,2022-06-27, Rahul Roy,Kheer,Khe_014,1,65.65,40.44,0.07,65.65,60.96
+154,2022-06-28, Neha Chauhan,Palak Paneer,Pal_017,3,161.6,101.1,0.07,484.8,452.46
+155,2022-06-29, Priya Dey,Vada Pav,Vad_024,2,25.25,15.165,0.03,50.5,49.05
+156,2022-06-29, Ravi Kohli,Vada Pav,Vad_024,2,25.25,15.165,0.07,50.5,47.13
+157,2022-06-29, Sneha Sharma,Samosa,Sam_022,2,20.2,10.11,0.05,40.4,38.38
+158,2022-06-30, Priya Mukherjee,Mutton Rogan Josh,Mut_016,4,272.7,181.98,0.05,1090.8,1036.26
+159,2022-07-01, Neha Bhatt,Chicken Curry,Chi_005,4,202.8,131.43,0.08,811.2,748.98
+160,2022-07-02, Anjali Bansal,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.07,272.7,254.51
+161,2022-07-02, Sneha Sharma,Dal Makhani,Dal_007,3,141.74,90.99,0.07,425.22,394.85
+162,2022-07-03, Neha Tripathi,Veg Pulao,Veg_025,1,80.8,50.55,0.07,80.8,75.41
+163,2022-07-04, Vikram Rao,Pav Bhaji,Pav_020,1,70.7,45.495,0.03,70.7,68.67
+164,2022-07-05, Anjali Bansal,Rajma Chawal,Raj_021,1,101.09,70.77,0.07,101.09,94.34
+165,2022-07-05, Isha Gill,Fish Curry,Fis_010,5,212.1,141.54,0.05,1060.5,1007.47
+166,2022-07-08, Anjali Singh,Biryani,Bir_003,3,152.25,101.1,0.05,456.75,433.91
+167,2022-07-08, Neha Agarwal,Chicken Curry,Chi_005,1,202.8,131.43,0.07,202.8,189.27
+168,2022-07-08, Sneha Mehta,Pani Puri,Pan_019,4,15.15,5.055,0.07,60.6,56.55
+169,2022-07-09, Sneha Joshi,Vada Pav,Vad_024,4,25.25,15.165,0.07,101,94.26
+170,2022-07-11, Sneha Desai,Pani Puri,Pan_019,5,15.15,5.055,0.07,75.75,70.69
+171,2022-07-15, Isha Rawat,Kathi Roll,Kat_013,4,75.75,50.55,0.08,303,279.75
+172,2022-07-19, Neha Chauhan,Chicken Curry,Chi_005,2,202.8,131.43,0.03,405.6,393.99
+173,2022-07-22, Isha Bhatia,Biryani,Bir_003,3,152.25,101.1,0.05,456.75,433.91
+174,2022-07-24, Isha Kohli,Kathi Roll,Kat_013,4,75.75,50.55,0.07,303,281.36
+175,2022-07-24, Rohit Paul,Dhokla,Dho_008,2,50.85,30.33,0.07,101.7,94.43
+176,2022-07-25, Vikram Rao,Dal Makhani,Dal_007,2,141.74,90.99,0.05,283.48,269.3
+177,2022-07-26, Priya Sen,Chole Bhature,Cho_006,4,91.71,60.66,0.05,366.84,348.49
+178,2022-07-27, Priya Kumar,Butter Chicken,But_004,3,222.54,151.65,0.07,667.62,619.95
+179,2022-07-27, Vikram Malhotra,Pav Bhaji,Pav_020,1,70.7,45.495,0.08,70.7,65.27
+180,2022-07-29, Neha Tripathi,Chicken Curry,Chi_005,4,202.8,131.43,0.07,811.2,753.28
+181,2022-07-29, Rahul Chauhan,Gulab Jamun,Gul_011,4,35.35,20.22,0.05,141.4,134.33
+182,2022-07-30, Amit Kapoor,Rajma Chawal,Raj_021,3,101.09,70.77,0.08,303.27,280
+183,2022-07-30, Isha Kaul,Paneer Tikka,Pan_018,4,182.73,121.32,0.07,730.92,678.73
+184,2022-08-02, Priya Basu,Gulab Jamun,Gul_011,5,35.35,20.22,0.07,176.75,164.96
+185,2022-08-02, Rohit Basak,Tandoori Chicken,Tan_023,1,242.4,161.76,0.05,242.4,230.28
+186,2022-08-03, Neha Tiwari,Samosa,Sam_022,5,20.2,10.11,0.07,101,94.26
+187,2022-08-04, Anjali Bansal,Dhokla,Dho_008,5,50.85,30.33,0.05,254.25,241.53
+188,2022-08-07, Ravi Grover,Butter Chicken,But_004,5,222.54,151.65,0.05,1112.7,1057.06
+189,2022-08-08, Rahul Pandey,Mutton Rogan Josh,Mut_016,5,272.7,181.98,0.05,1363.5,1295.32
+190,2022-08-09, Anjali Malhotra,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.05,272.7,259.06
+191,2022-08-10, Priya Banerjee,Chole Bhature,Cho_006,5,91.71,60.66,0.07,458.55,427.96
+192,2022-08-10, Rahul Sinha,Egg Curry,Egg_009,1,111.1,70.77,0.05,111.1,105.54
+193,2022-08-11, Anjali Thakur,Chole Bhature,Cho_006,4,91.71,60.66,0.08,366.84,338.7
+194,2022-08-12, Sneha Desai,Vada Pav,Vad_024,5,25.25,15.165,0.07,126.25,117.82
+195,2022-08-13, Priya Kumar,Egg Curry,Egg_009,1,111.1,70.77,0.05,111.1,105.54
+196,2022-08-15, Amit Verma,Kathi Roll,Kat_013,2,75.75,50.55,0.05,151.5,143.92
+197,2022-08-17, Rohit Sen,Dhokla,Dho_008,1,50.85,30.33,0.03,50.85,49.39
+198,2022-08-18, Ravi Mahajan,Dal Makhani,Dal_007,2,141.74,90.99,0.08,283.48,261.73
+199,2022-08-19, Rahul Tiwari,Pani Puri,Pan_019,3,15.15,5.055,0.08,45.45,41.96
+200,2022-08-20, Isha Kaul,Tandoori Chicken,Tan_023,4,242.4,161.76,0.07,969.6,900.37
+201,2022-08-21, Rahul Tripathi,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.07,545.4,509.02
+202,2022-08-22, Vikram Singh,Samosa,Sam_022,3,20.2,10.11,0.03,60.6,58.86
+203,2022-08-24, Rahul Bhatt,Egg Curry,Egg_009,2,111.1,70.77,0.08,222.2,205.15
+204,2022-08-25, Sneha Reddy,Kheer,Khe_014,3,65.65,40.44,0.07,196.95,183.81
+205,2022-08-26, Sneha Joshi,Idli Sambhar,Idl_012,4,56.33,35.385,0.07,225.32,209.23
+206,2022-08-27, Ravi Ghosh,Butter Chicken,But_004,5,222.54,151.65,0.07,1112.7,1033.25
+207,2022-08-29, Priya Chatterjee,Kheer,Khe_014,1,65.65,40.44,0.05,65.65,62.36
+208,2022-08-29, Rohit Basu,Dhokla,Dho_008,1,50.85,30.33,0.05,50.85,48.3
+209,2022-08-30, Anjali Thakur,Aloo Paratha,Alo_001,2,65.9,40.44,0.03,131.8,128.03
+210,2022-08-30, Priya Basak,Kheer,Khe_014,1,65.65,40.44,0.07,65.65,61.27
+211,2022-09-01, Rohit Sarkar,Pav Bhaji,Pav_020,5,70.7,45.495,0.05,353.5,335.82
+212,2022-09-03, Amit Reddy,Kathi Roll,Kat_013,2,75.75,50.55,0.05,151.5,143.92
+213,2022-09-06, Anjali Thakur,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.03,545.4,529.8
+214,2022-09-06, Rohit Basu,Kathi Roll,Kat_013,3,75.75,50.55,0.08,227.25,209.81
+215,2022-09-07, Isha Ghosh,Chicken Curry,Chi_005,5,202.8,131.43,0.03,1014,984.99
+216,2022-09-07, Neha Roy,Veg Pulao,Veg_025,2,80.8,50.55,0.05,161.6,153.52
+217,2022-09-08, Rohit Basak,Chicken Curry,Chi_005,4,202.8,131.43,0.03,811.2,787.99
+218,2022-09-13, Priya Sen,Butter Chicken,But_004,2,222.54,151.65,0.03,445.08,432.35
+219,2022-09-13, Rahul Dubey,Pani Puri,Pan_019,3,15.15,5.055,0.07,45.45,42.2
+220,2022-09-13, Rohit Chatterjee,Kathi Roll,Kat_013,1,75.75,50.55,0.07,75.75,70.34
+221,2022-09-14, Amit Kapoor,Biryani,Bir_003,2,152.25,101.1,0.07,304.5,284.18
+222,2022-09-17, Isha Grover,Chicken Curry,Chi_005,5,202.8,131.43,0.05,1014,963.3
+223,2022-09-17, Rohit Sarkar,Tandoori Chicken,Tan_023,1,242.4,161.76,0.05,242.4,230.28
+224,2022-09-18, Anjali Jain,Paneer Tikka,Pan_018,5,182.73,121.32,0.07,913.65,852.7
+225,2022-09-18, Sneha Mehta,Butter Chicken,But_004,5,222.54,151.65,0.05,1112.7,1057.06
+226,2022-09-19, Anjali Malhotra,Tandoori Chicken,Tan_023,3,242.4,161.76,0.05,727.2,690.84
+227,2022-09-20, Anjali Malhotra,Biryani,Bir_003,5,152.25,101.1,0.03,761.25,739.47
+228,2022-09-20, Rohit Kumar,Fish Curry,Fis_010,5,212.1,141.54,0.07,1060.5,984.78
+229,2022-09-20, Sneha Sharma,Butter Chicken,But_004,5,222.54,151.65,0.03,1112.7,1080.87
+230,2022-09-21, Rahul Tripathi,Vada Pav,Vad_024,1,25.25,15.165,0.05,25.25,23.98
+231,2022-09-24, Isha Gill,Dhokla,Dho_008,5,50.85,30.33,0.08,254.25,234.74
+232,2022-09-24, Ravi Ghosh,Egg Curry,Egg_009,5,111.1,70.77,0.07,555.5,515.83
+233,2022-09-24, Vikram Saxena,Masala Dosa,Mas_015,3,50.75,30.33,0.07,152.25,141.37
+234,2022-09-25, Anjali Iyer,Biryani,Bir_003,5,152.25,101.1,0.05,761.25,723.18
+235,2022-09-25, Neha Sinha,Palak Paneer,Pal_017,4,161.6,101.1,0.05,646.4,614.08
+236,2022-09-27, Amit Reddy,Chole Bhature,Cho_006,2,91.71,60.66,0.08,183.42,169.35
+237,2022-09-28, Priya Chatterjee,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.05,818.1,777.19
+238,2022-09-28, Rahul Pandey,Chole Bhature,Cho_006,2,91.71,60.66,0.07,183.42,171.18
+239,2022-09-29, Neha Bhatt,Fish Curry,Fis_010,4,212.1,141.54,0.08,848.4,783.32
+240,2022-09-29, Priya Sen,Kheer,Khe_014,4,65.65,40.44,0.08,262.6,242.45
+241,2022-10-02, Neha Bhatt,Masala Dosa,Mas_015,2,50.75,30.33,0.03,101.5,98.59
+242,2022-10-02, Rahul Mishra,Rajma Chawal,Raj_021,2,101.09,70.77,0.05,202.18,192.07
+243,2022-10-03, Anjali Saxena,Biryani,Bir_003,5,152.25,101.1,0.07,761.25,710.47
+244,2022-10-03, Vikram Das,Masala Dosa,Mas_015,1,50.75,30.33,0.05,50.75,48.21
+245,2022-10-05, Priya Mukherjee,Butter Chicken,But_004,2,222.54,151.65,0.05,445.08,422.82
+246,2022-10-08, Rohit Kumar,Chicken Curry,Chi_005,5,202.8,131.43,0.07,1014,941.6
+247,2022-10-09, Anjali Das,Biryani,Bir_003,4,152.25,101.1,0.05,609,578.55
+248,2022-10-09, Rahul Tiwari,Rajma Chawal,Raj_021,3,101.09,70.77,0.05,303.27,288.1
+249,2022-10-10, Priya Banerjee,Butter Chicken,But_004,3,222.54,151.65,0.05,667.62,634.23
+250,2022-10-10, Rohit Chatterjee,Biryani,Bir_003,1,152.25,101.1,0.07,152.25,141.37
+251,2022-10-12, Isha Mahajan,Masala Dosa,Mas_015,3,50.75,30.33,0.07,152.25,142.09
+252,2022-10-13, Vikram Rao,Palak Paneer,Pal_017,4,161.6,101.1,0.05,646.4,614.08
+253,2022-10-14, Anjali Singh,Chole Bhature,Cho_006,1,91.71,60.66,0.05,91.71,87.12
+254,2022-10-14, Rohit Paul,Fish Curry,Fis_010,4,212.1,141.54,0.03,848.4,824.13
+255,2022-10-14, Sneha Gupta,Vada Pav,Vad_024,4,25.25,15.165,0.05,101,95.95
+256,2022-10-15, Anjali Iyer,Tandoori Chicken,Tan_023,5,242.4,161.76,0.05,1212,1151.4
+257,2022-10-15, Sneha Gupta,Baingan Bharta,Bai_002,1,96.05,60.66,0.05,96.05,91.24
+258,2022-10-15, Vikram Singh,Chicken Curry,Chi_005,1,202.8,131.43,0.07,202.8,188.32
+259,2022-10-17, Amit Kapoor,Aloo Paratha,Alo_001,3,65.9,40.44,0.08,197.7,182.53
+260,2022-10-18, Amit Verma,Dhokla,Dho_008,3,50.85,30.33,0.03,152.55,148.18
+261,2022-10-19, Anjali Menon,Aloo Paratha,Alo_001,4,65.9,40.44,0.07,263.6,244.77
+262,2022-10-20, Neha Tiwari,Veg Pulao,Veg_025,3,80.8,50.55,0.05,242.4,230.28
+263,2022-10-23, Rohit Sen,Fish Curry,Fis_010,4,212.1,141.54,0.05,848.4,805.98
+264,2022-10-23, Sneha Joshi,Baingan Bharta,Bai_002,1,96.05,60.66,0.07,96.05,89.64
+265,2022-10-25, Priya Kumar,Pani Puri,Pan_019,2,15.15,5.055,0.05,30.3,28.78
+266,2022-10-25, Sneha Desai,Kheer,Khe_014,5,65.65,40.44,0.07,328.25,306.35
+267,2022-10-27, Isha Mahajan,Biryani,Bir_003,4,152.25,101.1,0.08,609,562.28
+268,2022-10-27, Neha Tiwari,Masala Dosa,Mas_015,3,50.75,30.33,0.05,152.25,144.63
+269,2022-10-29, Amit Joshi,Kathi Roll,Kat_013,4,75.75,50.55,0.03,303,294.33
+270,2022-10-29, Amit Sharma,Tandoori Chicken,Tan_023,2,242.4,161.76,0.05,484.8,460.56
+271,2022-10-29, Neha Roy,Idli Sambhar,Idl_012,3,56.33,35.385,0.05,168.99,160.54
+272,2022-10-30, Amit Reddy,Biryani,Bir_003,4,152.25,101.1,0.05,609,578.55
+273,2022-10-30, Rohit Banerjee,Pav Bhaji,Pav_020,5,70.7,45.495,0.03,353.5,343.38
+274,2022-10-30, Rohit Sarkar,Masala Dosa,Mas_015,5,50.75,30.33,0.05,253.75,241.06
+275,2022-10-31, Neha Tripathi,Fish Curry,Fis_010,4,212.1,141.54,0.07,848.4,787.82
+276,2022-11-01, Sneha Reddy,Dal Makhani,Dal_007,2,141.74,90.99,0.03,283.48,275.37
+277,2022-11-02, Ravi Gill,Kheer,Khe_014,3,65.65,40.44,0.05,196.95,187.1
+278,2022-11-03, Amit Joshi,Biryani,Bir_003,4,152.25,101.1,0.03,609,591.58
+279,2022-11-03, Vikram Das,Dal Makhani,Dal_007,3,141.74,90.99,0.03,425.22,413.05
+280,2022-11-06, Ravi Mahajan,Baingan Bharta,Bai_002,2,96.05,60.66,0.08,192.1,177.36
+281,2022-11-11, Amit Gupta,Chole Bhature,Cho_006,1,91.71,60.66,0.05,91.71,87.12
+282,2022-11-12, Anjali Malhotra,Dhokla,Dho_008,5,50.85,30.33,0.03,254.25,246.97
+283,2022-11-13, Priya Sarkar,Vada Pav,Vad_024,5,25.25,15.165,0.08,126.25,116.56
+284,2022-11-15, Vikram Das,Baingan Bharta,Bai_002,3,96.05,60.66,0.03,288.15,279.9
+285,2022-11-16, Ravi Ghosh,Baingan Bharta,Bai_002,1,96.05,60.66,0.08,96.05,88.68
+286,2022-11-17, Ravi Bhatia,Samosa,Sam_022,3,20.2,10.11,0.07,60.6,56.27
+287,2022-11-17, Vikram Bansal,Masala Dosa,Mas_015,2,50.75,30.33,0.07,101.5,94.25
+288,2022-11-18, Anjali Das,Tandoori Chicken,Tan_023,4,242.4,161.76,0.05,969.6,921.12
+289,2022-11-18, Isha Lal,Chicken Curry,Chi_005,3,202.8,131.43,0.05,608.4,577.98
+290,2022-11-18, Neha Mishra,Veg Pulao,Veg_025,2,80.8,50.55,0.05,161.6,153.52
+291,2022-11-19, Anjali Iyer,Mutton Rogan Josh,Mut_016,5,272.7,181.98,0.08,1363.5,1258.91
+292,2022-11-19, Anjali Singh,Tandoori Chicken,Tan_023,3,242.4,161.76,0.05,727.2,690.84
+293,2022-11-20, Isha Bhatia,Paneer Tikka,Pan_018,3,182.73,121.32,0.05,548.19,520.78
+294,2022-11-23, Rahul Agarwal,Chole Bhature,Cho_006,2,91.71,60.66,0.05,183.42,174.24
+295,2022-11-25, Amit Desai,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.07,818.1,759.68
+296,2022-11-26, Neha Roy,Baingan Bharta,Bai_002,3,96.05,60.66,0.05,288.15,273.74
+297,2022-11-26, Rahul Mishra,Egg Curry,Egg_009,1,111.1,70.77,0.08,111.1,102.57
+298,2022-11-27, Ravi Rawat,Pani Puri,Pan_019,4,15.15,5.055,0.05,60.6,57.57
+299,2022-11-29, Sneha Mehta,Vada Pav,Vad_024,4,25.25,15.165,0.07,101,94.26
+300,2022-11-29, Vikram Menon,Masala Dosa,Mas_015,3,50.75,30.33,0.08,152.25,140.57
+301,2022-11-30, Neha Tripathi,Palak Paneer,Pal_017,4,161.6,101.1,0.07,646.4,603.28
+302,2022-12-01, Amit Nair,Chole Bhature,Cho_006,3,91.71,60.66,0.08,275.13,254.02
+303,2022-12-01, Rohit Chatterjee,Masala Dosa,Mas_015,2,50.75,30.33,0.05,101.5,96.42
+304,2022-12-02, Rohit Mukherjee,Dhokla,Dho_008,1,50.85,30.33,0.05,50.85,48.3
+305,2022-12-03, Amit Sharma,Chole Bhature,Cho_006,1,91.71,60.66,0.08,91.71,84.67
+306,2022-12-04, Anjali Iyer,Kathi Roll,Kat_013,5,75.75,50.55,0.05,378.75,359.81
+307,2022-12-05, Ravi Bhatia,Pani Puri,Pan_019,5,15.15,5.055,0.03,75.75,73.58
+308,2022-12-05, Vikram Thakur,Veg Pulao,Veg_025,1,80.8,50.55,0.03,80.8,78.48
+309,2022-12-06, Sneha Nair,Kheer,Khe_014,5,65.65,40.44,0.07,328.25,306.35
+310,2022-12-07, Amit Sharma,Dhokla,Dho_008,5,50.85,30.33,0.07,254.25,236.09
+311,2022-12-07, Rohit Paul,Kathi Roll,Kat_013,2,75.75,50.55,0.07,151.5,140.68
+312,2022-12-08, Isha Mahajan,Fish Curry,Fis_010,3,212.1,141.54,0.07,636.3,593.85
+313,2022-12-10, Rahul Roy,Egg Curry,Egg_009,1,111.1,70.77,0.07,111.1,103.16
+314,2022-12-11, Amit Kapoor,Tandoori Chicken,Tan_023,3,242.4,161.76,0.05,727.2,690.84
+315,2022-12-12, Amit Reddy,Rajma Chawal,Raj_021,1,101.09,70.77,0.03,101.09,98.19
+316,2022-12-12, Rahul Agarwal,Gulab Jamun,Gul_011,4,35.35,20.22,0.03,141.4,137.35
+317,2022-12-14, Anjali Menon,Dhokla,Dho_008,4,50.85,30.33,0.07,203.4,189.83
+318,2022-12-14, Rahul Tripathi,Egg Curry,Egg_009,2,111.1,70.77,0.07,222.2,206.33
+319,2022-12-15, Isha Bhatia,Chicken Curry,Chi_005,5,202.8,131.43,0.07,1014,946.36
+320,2022-12-16, Priya Sarkar,Aloo Paratha,Alo_001,4,65.9,40.44,0.07,263.6,246.01
+321,2022-12-17, Sneha Joshi,Butter Chicken,But_004,4,222.54,151.65,0.07,890.16,830.78
+322,2022-12-17, Sneha Verma,Pani Puri,Pan_019,3,15.15,5.055,0.05,45.45,43.17
+323,2022-12-18, Anjali Das,Dhokla,Dho_008,4,50.85,30.33,0.05,203.4,193.23
+324,2022-12-18, Rahul Mishra,Aloo Paratha,Alo_001,5,65.9,40.44,0.07,329.5,305.97
+325,2022-12-20, Amit Gupta,Tandoori Chicken,Tan_023,2,242.4,161.76,0.05,484.8,460.56
+326,2022-12-21, Isha Kohli,Pav Bhaji,Pav_020,4,70.7,45.495,0.07,282.8,263.93
+327,2022-12-23, Ravi Ghosh,Samosa,Sam_022,1,20.2,10.11,0.08,20.2,18.65
+328,2022-12-25, Vikram Iyer,Veg Pulao,Veg_025,3,80.8,50.55,0.08,242.4,223.8
+329,2022-12-25, Vikram Malhotra,Samosa,Sam_022,2,20.2,10.11,0.05,40.4,38.38
+330,2022-12-26, Rahul Sinha,Pani Puri,Pan_019,1,15.15,5.055,0.05,15.15,14.39
+331,2022-12-26, Ravi Lal,Idli Sambhar,Idl_012,1,56.33,35.385,0.07,56.33,52.3
+332,2022-12-27, Isha Rawat,Pav Bhaji,Pav_020,4,70.7,45.495,0.05,282.8,268.66
+333,2022-12-30, Amit Sharma,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.08,272.7,251.78
+334,2022-12-31, Isha Ghosh,Veg Pulao,Veg_025,3,80.8,50.55,0.05,242.4,230.28
+335,2023-01-01, Rahul Agarwal,Aloo Paratha,Alo_001,2,65.9,40.44,0.05,131.8,125.21
+336,2023-01-02, Ravi Ghosh,Kheer,Khe_014,3,65.65,40.44,0.03,196.95,191.31
+337,2023-01-03, Neha Sinha,Veg Pulao,Veg_025,4,80.8,50.55,0.08,323.2,298.41
+338,2023-01-05, Amit Sharma,Aloo Paratha,Alo_001,1,65.9,40.44,0.08,65.9,60.84
+339,2023-01-06, Anjali Singh,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.05,272.7,259.06
+340,2023-01-07, Amit Reddy,Paneer Tikka,Pan_018,4,182.73,121.32,0.05,730.92,694.37
+341,2023-01-07, Anjali Rao,Aloo Paratha,Alo_001,4,65.9,40.44,0.08,263.6,243.38
+342,2023-01-10, Anjali Saxena,Dhokla,Dho_008,5,50.85,30.33,0.07,254.25,237.29
+343,2023-01-10, Sneha Verma,Idli Sambhar,Idl_012,2,56.33,35.385,0.05,112.66,107.02
+344,2023-01-11, Ravi Gill,Vada Pav,Vad_024,5,25.25,15.165,0.05,126.25,119.93
+345,2023-01-13, Isha Ghosh,Pav Bhaji,Pav_020,5,70.7,45.495,0.03,353.5,343.38
+346,2023-01-13, Priya Dey,Aloo Paratha,Alo_001,4,65.9,40.44,0.05,263.6,250.42
+347,2023-01-14, Isha Ghosh,Fish Curry,Fis_010,5,212.1,141.54,0.03,1060.5,1030.16
+348,2023-01-15, Neha Agarwal,Pav Bhaji,Pav_020,4,70.7,45.495,0.07,282.8,262.6
+349,2023-01-15, Rahul Chauhan,Pani Puri,Pan_019,2,15.15,5.055,0.08,30.3,27.97
+350,2023-01-17, Amit Kapoor,Chole Bhature,Cho_006,1,91.71,60.66,0.05,91.71,87.12
+351,2023-01-17, Priya Kumar,Kheer,Khe_014,1,65.65,40.44,0.05,65.65,62.36
+352,2023-01-17, Rahul Dubey,Rajma Chawal,Raj_021,5,101.09,70.77,0.03,505.45,490.99
+353,2023-01-17, Ravi Lal,Baingan Bharta,Bai_002,1,96.05,60.66,0.07,96.05,89.19
+354,2023-01-18, Rahul Chauhan,Egg Curry,Egg_009,2,111.1,70.77,0.08,222.2,205.15
+355,2023-01-20, Isha Nanda,Kathi Roll,Kat_013,2,75.75,50.55,0.05,151.5,143.92
+356,2023-01-20, Neha Chauhan,Fish Curry,Fis_010,2,212.1,141.54,0.03,424.2,412.06
+357,2023-01-20, Rohit Basak,Kathi Roll,Kat_013,3,75.75,50.55,0.08,227.25,209.81
+358,2023-01-21, Ravi Kohli,Samosa,Sam_022,3,20.2,10.11,0.08,60.6,55.95
+359,2023-01-21, Vikram Bansal,Chicken Curry,Chi_005,2,202.8,131.43,0.08,405.6,374.49
+360,2023-01-22, Anjali Saxena,Tandoori Chicken,Tan_023,5,242.4,161.76,0.07,1212,1131.15
+361,2023-01-22, Ravi Rawat,Vada Pav,Vad_024,4,25.25,15.165,0.05,101,95.95
+362,2023-01-24, Neha Agarwal,Baingan Bharta,Bai_002,5,96.05,60.66,0.05,480.25,456.23
+363,2023-01-26, Amit Gupta,Aloo Paratha,Alo_001,1,65.9,40.44,0.05,65.9,62.6
+364,2023-01-29, Vikram Thakur,Baingan Bharta,Bai_002,2,96.05,60.66,0.05,192.1,182.49
+365,2023-01-31, Vikram Singh,Baingan Bharta,Bai_002,3,96.05,60.66,0.03,288.15,279.9
+366,2023-02-06, Rahul Pandey,Pani Puri,Pan_019,1,15.15,5.055,0.05,15.15,14.39
+367,2023-02-07, Vikram Menon,Baingan Bharta,Bai_002,4,96.05,60.66,0.03,384.2,373.21
+368,2023-02-08, Rohit Dey,Veg Pulao,Veg_025,4,80.8,50.55,0.05,323.2,307.04
+369,2023-02-09, Rahul Dubey,Kheer,Khe_014,3,65.65,40.44,0.07,196.95,182.88
+370,2023-02-09, Vikram Das,Idli Sambhar,Idl_012,2,56.33,35.385,0.05,112.66,107.02
+371,2023-02-10, Neha Dubey,Masala Dosa,Mas_015,3,50.75,30.33,0.05,152.25,144.63
+372,2023-02-11, Isha Lal,Dhokla,Dho_008,1,50.85,30.33,0.05,50.85,48.3
+373,2023-02-12, Amit Patel,Tandoori Chicken,Tan_023,4,242.4,161.76,0.05,969.6,921.12
+374,2023-02-12, Ravi Bhatia,Butter Chicken,But_004,3,222.54,151.65,0.05,667.62,634.23
+375,2023-02-13, Anjali Malhotra,Gulab Jamun,Gul_011,1,35.35,20.22,0.05,35.35,33.58
+376,2023-02-16, Priya Banerjee,Gulab Jamun,Gul_011,5,35.35,20.22,0.07,176.75,164.96
+377,2023-02-19, Anjali Thakur,Kathi Roll,Kat_013,4,75.75,50.55,0.05,303,287.85
+378,2023-02-19, Sneha Sharma,Egg Curry,Egg_009,5,111.1,70.77,0.03,555.5,539.61
+379,2023-02-22, Priya Mukherjee,Chole Bhature,Cho_006,4,91.71,60.66,0.05,366.84,348.49
+380,2023-02-22, Rahul Dubey,Egg Curry,Egg_009,3,111.1,70.77,0.07,333.3,309.5
+381,2023-02-23, Neha Bhatt,Baingan Bharta,Bai_002,3,96.05,60.66,0.07,288.15,268.93
+382,2023-02-25, Isha Grover,Pav Bhaji,Pav_020,5,70.7,45.495,0.07,353.5,329.92
+383,2023-02-27, Sneha Gupta,Pani Puri,Pan_019,4,15.15,5.055,0.05,60.6,57.57
+384,2023-02-28, Isha Bhatia,Kathi Roll,Kat_013,3,75.75,50.55,0.05,227.25,215.88
+385,2023-03-02, Anjali Thakur,Paneer Tikka,Pan_018,4,182.73,121.32,0.05,730.92,694.37
+386,2023-03-02, Rohit Kumar,Masala Dosa,Mas_015,3,50.75,30.33,0.03,152.25,147.89
+387,2023-03-03, Anjali Menon,Biryani,Bir_003,4,152.25,101.1,0.07,609,568.37
+388,2023-03-03, Sneha Patel,Pani Puri,Pan_019,4,15.15,5.055,0.05,60.6,57.57
+389,2023-03-04, Anjali Jain,Kathi Roll,Kat_013,5,75.75,50.55,0.07,378.75,353.48
+390,2023-03-04, Anjali Rao,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.03,545.4,529.8
+391,2023-03-06, Anjali Das,Kathi Roll,Kat_013,4,75.75,50.55,0.05,303,287.85
+392,2023-03-06, Anjali Jain,Tandoori Chicken,Tan_023,5,242.4,161.76,0.07,1212,1131.15
+393,2023-03-06, Anjali Singh,Paneer Tikka,Pan_018,3,182.73,121.32,0.05,548.19,520.78
+394,2023-03-07, Vikram Jain,Idli Sambhar,Idl_012,3,56.33,35.385,0.05,168.99,160.54
+395,2023-03-08, Anjali Iyer,Paneer Tikka,Pan_018,5,182.73,121.32,0.05,913.65,867.96
+396,2023-03-09, Amit Verma,Biryani,Bir_003,2,152.25,101.1,0.05,304.5,289.27
+397,2023-03-09, Neha Pandey,Palak Paneer,Pal_017,5,161.6,101.1,0.05,808,767.6
+398,2023-03-11, Vikram Malhotra,Idli Sambhar,Idl_012,5,56.33,35.385,0.07,281.65,261.54
+399,2023-03-13, Amit Desai,Dhokla,Dho_008,3,50.85,30.33,0.05,152.55,144.92
+400,2023-03-14, Amit Kapoor,Dhokla,Dho_008,2,50.85,30.33,0.07,101.7,94.91
+401,2023-03-14, Neha Dubey,Baingan Bharta,Bai_002,5,96.05,60.66,0.07,480.25,448.21
+402,2023-03-15, Neha Tripathi,Dal Makhani,Dal_007,4,141.74,90.99,0.07,566.96,529.14
+403,2023-03-17, Ravi Kaul,Kheer,Khe_014,4,65.65,40.44,0.03,262.6,255.08
+404,2023-03-17, Ravi Rawat,Idli Sambhar,Idl_012,2,56.33,35.385,0.08,112.66,104.01
+405,2023-03-17, Sneha Kapoor,Idli Sambhar,Idl_012,5,56.33,35.385,0.08,281.65,260.04
+406,2023-03-17, Vikram Saxena,Fish Curry,Fis_010,3,212.1,141.54,0.07,636.3,590.86
+407,2023-03-18, Rohit Banerjee,Veg Pulao,Veg_025,5,80.8,50.55,0.03,404,392.44
+408,2023-03-20, Amit Sharma,Gulab Jamun,Gul_011,1,35.35,20.22,0.08,35.35,32.63
+409,2023-03-20, Rahul Mishra,Butter Chicken,But_004,1,222.54,151.65,0.08,222.54,205.47
+410,2023-03-20, Sneha Verma,Dal Makhani,Dal_007,1,141.74,90.99,0.05,141.74,134.65
+411,2023-03-21, Sneha Reddy,Egg Curry,Egg_009,3,111.1,70.77,0.07,333.3,311.06
+412,2023-03-26, Vikram Bansal,Palak Paneer,Pal_017,4,161.6,101.1,0.03,646.4,627.91
+413,2023-03-27, Priya Paul,Gulab Jamun,Gul_011,5,35.35,20.22,0.05,176.75,167.91
+414,2023-03-27, Sneha Nair,Baingan Bharta,Bai_002,5,96.05,60.66,0.08,480.25,443.41
+415,2023-03-29, Neha Roy,Samosa,Sam_022,3,20.2,10.11,0.05,60.6,57.57
+416,2023-03-29, Rahul Sinha,Chole Bhature,Cho_006,2,91.71,60.66,0.05,183.42,174.24
+417,2023-03-30, Anjali Iyer,Gulab Jamun,Gul_011,5,35.35,20.22,0.08,176.75,163.19
+418,2023-04-02, Neha Chauhan,Veg Pulao,Veg_025,4,80.8,50.55,0.08,323.2,298.41
+419,2023-04-03, Rahul Roy,Aloo Paratha,Alo_001,2,65.9,40.44,0.05,131.8,125.21
+420,2023-04-07, Sneha Desai,Egg Curry,Egg_009,5,111.1,70.77,0.07,555.5,518.44
+421,2023-04-08, Amit Patel,Chole Bhature,Cho_006,2,91.71,60.66,0.08,183.42,169.35
+422,2023-04-08, Sneha Joshi,Pani Puri,Pan_019,4,15.15,5.055,0.07,60.6,56.55
+423,2023-04-09, Amit Desai,Aloo Paratha,Alo_001,3,65.9,40.44,0.07,197.7,183.58
+424,2023-04-09, Neha Dubey,Veg Pulao,Veg_025,5,80.8,50.55,0.07,404,375.15
+425,2023-04-11, Neha Sinha,Samosa,Sam_022,4,20.2,10.11,0.05,80.8,76.76
+426,2023-04-14, Sneha Desai,Samosa,Sam_022,5,20.2,10.11,0.07,101,93.78
+427,2023-04-15, Isha Nanda,Fish Curry,Fis_010,4,212.1,141.54,0.05,848.4,805.98
+428,2023-04-16, Isha Ghosh,Biryani,Bir_003,3,152.25,101.1,0.07,456.75,424.13
+429,2023-04-16, Vikram Bansal,Veg Pulao,Veg_025,2,80.8,50.55,0.07,161.6,150.06
+430,2023-04-16, Vikram Malhotra,Masala Dosa,Mas_015,1,50.75,30.33,0.08,50.75,46.85
+431,2023-04-19, Rahul Mishra,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.05,545.4,518.13
+432,2023-04-22, Priya Basu,Kheer,Khe_014,3,65.65,40.44,0.05,196.95,187.1
+433,2023-04-23, Anjali Iyer,Aloo Paratha,Alo_001,4,65.9,40.44,0.07,263.6,244.77
+434,2023-04-25, Neha Sinha,Dal Makhani,Dal_007,4,141.74,90.99,0.05,566.96,538.61
+435,2023-04-26, Isha Bhatia,Pav Bhaji,Pav_020,5,70.7,45.495,0.07,353.5,329.92
+436,2023-04-28, Vikram Das,Fish Curry,Fis_010,1,212.1,141.54,0.05,212.1,201.49
+437,2023-05-01, Anjali Saxena,Aloo Paratha,Alo_001,3,65.9,40.44,0.05,197.7,187.81
+438,2023-05-01, Priya Banerjee,Vada Pav,Vad_024,5,25.25,15.165,0.07,126.25,117.23
+439,2023-05-03, Priya Banerjee,Egg Curry,Egg_009,3,111.1,70.77,0.05,333.3,316.63
+440,2023-05-04, Ravi Nanda,Palak Paneer,Pal_017,1,161.6,101.1,0.05,161.6,153.52
+441,2023-05-05, Rahul Pandey,Egg Curry,Egg_009,3,111.1,70.77,0.08,333.3,307.73
+442,2023-05-06, Isha Gill,Veg Pulao,Veg_025,5,80.8,50.55,0.05,404,383.8
+443,2023-05-06, Vikram Singh,Palak Paneer,Pal_017,3,161.6,101.1,0.03,484.8,470.93
+444,2023-05-08, Rohit Chatterjee,Dhokla,Dho_008,1,50.85,30.33,0.07,50.85,47.21
+445,2023-05-10, Priya Dey,Pani Puri,Pan_019,2,15.15,5.055,0.03,30.3,29.43
+446,2023-05-12, Isha Mahajan,Tandoori Chicken,Tan_023,4,242.4,161.76,0.08,969.6,895.23
+447,2023-05-14, Amit Patel,Gulab Jamun,Gul_011,1,35.35,20.22,0.03,35.35,34.33
+448,2023-05-16, Sneha Joshi,Kheer,Khe_014,4,65.65,40.44,0.07,262.6,245.08
+449,2023-05-17, Isha Bhatia,Dhokla,Dho_008,3,50.85,30.33,0.05,152.55,144.92
+450,2023-05-17, Rohit Sen,Pav Bhaji,Pav_020,4,70.7,45.495,0.05,282.8,268.66
+451,2023-05-20, Vikram Saxena,Baingan Bharta,Bai_002,5,96.05,60.66,0.05,480.25,456.23
+452,2023-05-22, Amit Mehta,Gulab Jamun,Gul_011,2,35.35,20.22,0.07,70.7,65.65
+453,2023-05-22, Ravi Mahajan,Palak Paneer,Pal_017,1,161.6,101.1,0.03,161.6,156.97
+454,2023-05-25, Sneha Patel,Kheer,Khe_014,4,65.65,40.44,0.05,262.6,249.47
+455,2023-05-29, Anjali Menon,Gulab Jamun,Gul_011,4,35.35,20.22,0.07,141.4,131.3
+456,2023-05-29, Priya Sen,Pani Puri,Pan_019,4,15.15,5.055,0.08,60.6,55.95
+457,2023-05-29, Rahul Agarwal,Butter Chicken,But_004,1,222.54,151.65,0.03,222.54,216.17
+458,2023-05-31, Amit Gupta,Biryani,Bir_003,3,152.25,101.1,0.03,456.75,443.68
+459,2023-05-31, Ravi Bhatia,Dal Makhani,Dal_007,3,141.74,90.99,0.07,425.22,394.85
+460,2023-05-31, Vikram Iyer,Idli Sambhar,Idl_012,2,56.33,35.385,0.07,112.66,105.14
+461,2023-06-02, Ravi Nanda,Baingan Bharta,Bai_002,1,96.05,60.66,0.05,96.05,91.24
+462,2023-06-03, Ravi Bhatia,Egg Curry,Egg_009,5,111.1,70.77,0.05,555.5,527.72
+463,2023-06-04, Rohit Basak,Masala Dosa,Mas_015,2,50.75,30.33,0.07,101.5,94.72
+464,2023-06-05, Ravi Lal,Samosa,Sam_022,1,20.2,10.11,0.07,20.2,18.75
+465,2023-06-07, Vikram Rao,Baingan Bharta,Bai_002,2,96.05,60.66,0.05,192.1,182.49
+466,2023-06-08, Sneha Gupta,Butter Chicken,But_004,4,222.54,151.65,0.05,890.16,845.65
+467,2023-06-09, Rohit Basu,Masala Dosa,Mas_015,5,50.75,30.33,0.05,253.75,241.06
+468,2023-06-10, Rahul Bhatt,Rajma Chawal,Raj_021,2,101.09,70.77,0.05,202.18,192.07
+469,2023-06-11, Sneha Nair,Palak Paneer,Pal_017,3,161.6,101.1,0.05,484.8,460.56
+470,2023-06-13, Sneha Nair,Samosa,Sam_022,3,20.2,10.11,0.05,60.6,57.57
+471,2023-06-14, Sneha Nair,Pani Puri,Pan_019,5,15.15,5.055,0.07,75.75,70.69
+472,2023-06-16, Isha Ghosh,Dhokla,Dho_008,3,50.85,30.33,0.07,152.55,141.65
+473,2023-06-16, Rohit Dey,Chicken Curry,Chi_005,2,202.8,131.43,0.05,405.6,385.32
+474,2023-06-17, Rohit Kumar,Pav Bhaji,Pav_020,2,70.7,45.495,0.05,141.4,134.33
+475,2023-06-17, Vikram Malhotra,Dal Makhani,Dal_007,5,141.74,90.99,0.07,708.7,658.09
+476,2023-06-20, Rohit Chatterjee,Veg Pulao,Veg_025,2,80.8,50.55,0.05,161.6,153.52
+477,2023-06-23, Anjali Rao,Rajma Chawal,Raj_021,4,101.09,70.77,0.08,404.36,373.34
+478,2023-06-24, Priya Basu,Butter Chicken,But_004,5,222.54,151.65,0.08,1112.7,1027.35
+479,2023-06-29, Priya Dey,Gulab Jamun,Gul_011,3,35.35,20.22,0.07,106.05,98.97
+480,2023-06-29, Ravi Mahajan,Vada Pav,Vad_024,4,25.25,15.165,0.05,101,95.95
+481,2023-06-30, Priya Mukherjee,Rajma Chawal,Raj_021,4,101.09,70.77,0.05,404.36,384.14
+482,2023-07-01, Neha Roy,Masala Dosa,Mas_015,1,50.75,30.33,0.05,50.75,48.21
+483,2023-07-03, Neha Chauhan,Baingan Bharta,Bai_002,4,96.05,60.66,0.05,384.2,364.99
+484,2023-07-07, Amit Kapoor,Gulab Jamun,Gul_011,1,35.35,20.22,0.05,35.35,33.58
+485,2023-07-07, Priya Basu,Vada Pav,Vad_024,3,25.25,15.165,0.05,75.75,71.96
+486,2023-07-09, Amit Sharma,Kathi Roll,Kat_013,5,75.75,50.55,0.07,378.75,351.7
+487,2023-07-09, Isha Kohli,Masala Dosa,Mas_015,4,50.75,30.33,0.07,203,189.45
+488,2023-07-09, Rohit Sarkar,Kathi Roll,Kat_013,3,75.75,50.55,0.08,227.25,209.81
+489,2023-07-10, Rohit Kumar,Paneer Tikka,Pan_018,1,182.73,121.32,0.08,182.73,168.71
+490,2023-07-11, Rahul Agarwal,Mutton Rogan Josh,Mut_016,4,272.7,181.98,0.03,1090.8,1059.6
+491,2023-07-11, Rahul Tiwari,Egg Curry,Egg_009,1,111.1,70.77,0.05,111.1,105.54
+492,2023-07-12, Priya Basak,Rajma Chawal,Raj_021,4,101.09,70.77,0.07,404.36,377.38
+493,2023-07-13, Amit Mehta,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.07,545.4,506.45
+494,2023-07-13, Isha Lal,Masala Dosa,Mas_015,3,50.75,30.33,0.05,152.25,144.63
+495,2023-07-14, Anjali Jain,Biryani,Bir_003,5,152.25,101.1,0.05,761.25,723.18
+496,2023-07-15, Priya Sarkar,Pani Puri,Pan_019,5,15.15,5.055,0.08,75.75,69.93
+497,2023-07-16, Rohit Mukherjee,Pav Bhaji,Pav_020,4,70.7,45.495,0.05,282.8,268.66
+498,2023-07-17, Anjali Rao,Tandoori Chicken,Tan_023,3,242.4,161.76,0.07,727.2,678.69
+499,2023-07-17, Ravi Kaul,Egg Curry,Egg_009,4,111.1,70.77,0.05,444.4,422.18
+500,2023-07-18, Anjali Thakur,Gulab Jamun,Gul_011,4,35.35,20.22,0.08,141.4,130.55
+501,2023-07-19, Isha Kohli,Biryani,Bir_003,4,152.25,101.1,0.07,609,565.51
+502,2023-07-19, Vikram Iyer,Pav Bhaji,Pav_020,3,70.7,45.495,0.08,212.1,195.83
+503,2023-07-20, Sneha Patel,Vada Pav,Vad_024,5,25.25,15.165,0.05,126.25,119.93
+504,2023-07-21, Amit Gupta,Kathi Roll,Kat_013,2,75.75,50.55,0.05,151.5,143.92
+505,2023-07-21, Anjali Rao,Gulab Jamun,Gul_011,4,35.35,20.22,0.08,141.4,130.55
+506,2023-07-22, Ravi Mahajan,Samosa,Sam_022,2,20.2,10.11,0.08,40.4,37.3
+507,2023-07-23, Priya Mukherjee,Kheer,Khe_014,1,65.65,40.44,0.05,65.65,62.36
+508,2023-07-23, Sneha Joshi,Egg Curry,Egg_009,4,111.1,70.77,0.07,444.4,414.75
+509,2023-07-24, Priya Dey,Chole Bhature,Cho_006,3,91.71,60.66,0.07,275.13,256.77
+510,2023-07-25, Priya Mukherjee,Vada Pav,Vad_024,4,25.25,15.165,0.08,101,93.25
+511,2023-07-26, Isha Bhatia,Veg Pulao,Veg_025,5,80.8,50.55,0.07,404,377.05
+512,2023-07-26, Isha Gill,Biryani,Bir_003,4,152.25,101.1,0.07,609,565.51
+513,2023-07-26, Priya Dey,Butter Chicken,But_004,4,222.54,151.65,0.08,890.16,821.88
+514,2023-07-30, Rohit Basu,Paneer Tikka,Pan_018,3,182.73,121.32,0.08,548.19,506.14
+515,2023-07-31, Anjali Das,Aloo Paratha,Alo_001,2,65.9,40.44,0.05,131.8,125.21
+516,2023-08-02, Neha Mishra,Samosa,Sam_022,3,20.2,10.11,0.05,60.6,57.57
+517,2023-08-03, Ravi Rawat,Kheer,Khe_014,2,65.65,40.44,0.05,131.3,124.73
+518,2023-08-04, Amit Nair,Kathi Roll,Kat_013,5,75.75,50.55,0.05,378.75,359.81
+519,2023-08-04, Sneha Reddy,Baingan Bharta,Bai_002,2,96.05,60.66,0.03,192.1,186.6
+520,2023-08-05, Rahul Agarwal,Pani Puri,Pan_019,2,15.15,5.055,0.07,30.3,28.13
+521,2023-08-05, Sneha Kapoor,Kheer,Khe_014,5,65.65,40.44,0.05,328.25,311.83
+522,2023-08-06, Isha Lal,Biryani,Bir_003,2,152.25,101.1,0.05,304.5,289.27
+523,2023-08-06, Rahul Chauhan,Kheer,Khe_014,1,65.65,40.44,0.03,65.65,63.77
+524,2023-08-07, Vikram Thakur,Palak Paneer,Pal_017,4,161.6,101.1,0.05,646.4,614.08
+525,2023-08-10, Rahul Tripathi,Chole Bhature,Cho_006,4,91.71,60.66,0.03,366.84,356.34
+526,2023-08-13, Vikram Bansal,Pav Bhaji,Pav_020,2,70.7,45.495,0.07,141.4,131.3
+527,2023-08-15, Rahul Pandey,Gulab Jamun,Gul_011,2,35.35,20.22,0.07,70.7,65.98
+528,2023-08-15, Sneha Patel,Baingan Bharta,Bai_002,4,96.05,60.66,0.08,384.2,354.73
+529,2023-08-16, Amit Mehta,Chole Bhature,Cho_006,2,91.71,60.66,0.07,183.42,170.32
+530,2023-08-16, Priya Sarkar,Butter Chicken,But_004,5,222.54,151.65,0.08,1112.7,1027.35
+531,2023-08-16, Rohit Basu,Biryani,Bir_003,1,152.25,101.1,0.05,152.25,144.63
+532,2023-08-17, Rahul Chauhan,Aloo Paratha,Alo_001,4,65.9,40.44,0.05,263.6,250.42
+533,2023-08-18, Neha Pandey,Masala Dosa,Mas_015,5,50.75,30.33,0.08,253.75,234.28
+534,2023-08-18, Rahul Bhatt,Vada Pav,Vad_024,1,25.25,15.165,0.03,25.25,24.52
+535,2023-08-20, Neha Sinha,Pav Bhaji,Pav_020,2,70.7,45.495,0.05,141.4,134.33
+536,2023-08-22, Rohit Sen,Veg Pulao,Veg_025,2,80.8,50.55,0.05,161.6,153.52
+537,2023-08-25, Priya Mukherjee,Gulab Jamun,Gul_011,4,35.35,20.22,0.05,141.4,134.33
+538,2023-08-25, Rahul Bhatt,Gulab Jamun,Gul_011,2,35.35,20.22,0.05,70.7,67.16
+539,2023-08-25, Rohit Mukherjee,Chicken Curry,Chi_005,3,202.8,131.43,0.03,608.4,590.99
+540,2023-08-25, Rohit Sarkar,Chicken Curry,Chi_005,2,202.8,131.43,0.07,405.6,378.54
+541,2023-08-25, Vikram Malhotra,Baingan Bharta,Bai_002,5,96.05,60.66,0.07,480.25,445.96
+542,2023-08-27, Vikram Singh,Masala Dosa,Mas_015,1,50.75,30.33,0.07,50.75,47.12
+543,2023-08-28, Isha Rawat,Biryani,Bir_003,2,152.25,101.1,0.03,304.5,295.79
+544,2023-08-31, Amit Verma,Chole Bhature,Cho_006,1,91.71,60.66,0.07,91.71,85.16
+545,2023-09-01, Amit Joshi,Gulab Jamun,Gul_011,2,35.35,20.22,0.07,70.7,65.65
+546,2023-09-01, Priya Basak,Pani Puri,Pan_019,1,15.15,5.055,0.07,15.15,14.13
+547,2023-09-02, Priya Chatterjee,Rajma Chawal,Raj_021,3,101.09,70.77,0.05,303.27,288.1
+548,2023-09-03, Isha Gill,Masala Dosa,Mas_015,5,50.75,30.33,0.05,253.75,241.06
+549,2023-09-05, Priya Mukherjee,Egg Curry,Egg_009,2,111.1,70.77,0.05,222.2,211.09
+550,2023-09-05, Ravi Rawat,Egg Curry,Egg_009,4,111.1,70.77,0.05,444.4,422.18
+551,2023-09-06, Amit Nair,Biryani,Bir_003,5,152.25,101.1,0.05,761.25,723.18
+552,2023-09-07, Sneha Kapoor,Vada Pav,Vad_024,5,25.25,15.165,0.05,126.25,119.93
+553,2023-09-10, Sneha Desai,Dal Makhani,Dal_007,3,141.74,90.99,0.05,425.22,403.95
+554,2023-09-10, Vikram Malhotra,Chicken Curry,Chi_005,1,202.8,131.43,0.08,202.8,187.24
+555,2023-09-12, Priya Paul,Butter Chicken,But_004,4,222.54,151.65,0.07,890.16,826.6
+556,2023-09-12, Rohit Sarkar,Fish Curry,Fis_010,2,212.1,141.54,0.07,424.2,395.9
+557,2023-09-15, Rohit Banerjee,Masala Dosa,Mas_015,3,50.75,30.33,0.05,152.25,144.63
+558,2023-09-16, Ravi Grover,Idli Sambhar,Idl_012,1,56.33,35.385,0.05,56.33,53.51
+559,2023-09-18, Ravi Rawat,Butter Chicken,But_004,2,222.54,151.65,0.05,445.08,422.82
+560,2023-09-19, Amit Kapoor,Paneer Tikka,Pan_018,3,182.73,121.32,0.05,548.19,520.78
+561,2023-09-20, Isha Nanda,Masala Dosa,Mas_015,4,50.75,30.33,0.05,203,192.85
+562,2023-09-21, Amit Sharma,Biryani,Bir_003,5,152.25,101.1,0.07,761.25,706.89
+563,2023-09-21, Priya Basak,Vada Pav,Vad_024,4,25.25,15.165,0.07,101,93.78
+564,2023-09-21, Rohit Basak,Dhokla,Dho_008,2,50.85,30.33,0.07,101.7,94.43
+565,2023-09-22, Neha Bhatt,Idli Sambhar,Idl_012,4,56.33,35.385,0.05,225.32,214.05
+566,2023-09-23, Isha Nanda,Biryani,Bir_003,2,152.25,101.1,0.05,304.5,289.27
+567,2023-09-24, Rohit Chatterjee,Pav Bhaji,Pav_020,2,70.7,45.495,0.05,141.4,134.33
+568,2023-09-25, Amit Gupta,Paneer Tikka,Pan_018,2,182.73,121.32,0.05,365.46,347.18
+569,2023-09-27, Isha Kaul,Masala Dosa,Mas_015,5,50.75,30.33,0.05,253.75,241.06
+570,2023-09-27, Sneha Sharma,Kheer,Khe_014,5,65.65,40.44,0.03,328.25,318.86
+571,2023-09-27, Vikram Rao,Samosa,Sam_022,4,20.2,10.11,0.05,80.8,76.76
+572,2023-10-03, Amit Desai,Gulab Jamun,Gul_011,3,35.35,20.22,0.07,106.05,98.47
+573,2023-10-03, Neha Mishra,Baingan Bharta,Bai_002,5,96.05,60.66,0.03,480.25,466.51
+574,2023-10-03, Priya Banerjee,Rajma Chawal,Raj_021,5,101.09,70.77,0.07,505.45,471.73
+575,2023-10-04, Neha Dubey,Samosa,Sam_022,5,20.2,10.11,0.07,101,94.26
+576,2023-10-04, Sneha Gupta,Kheer,Khe_014,4,65.65,40.44,0.05,262.6,249.47
+577,2023-10-05, Priya Sarkar,Gulab Jamun,Gul_011,5,35.35,20.22,0.05,176.75,167.91
+578,2023-10-06, Anjali Das,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.05,545.4,518.13
+579,2023-10-12, Neha Chauhan,Idli Sambhar,Idl_012,3,56.33,35.385,0.07,168.99,157.71
+580,2023-10-12, Ravi Grover,Egg Curry,Egg_009,5,111.1,70.77,0.05,555.5,527.72
+581,2023-10-13, Anjali Saxena,Rajma Chawal,Raj_021,5,101.09,70.77,0.07,505.45,469.36
+582,2023-10-14, Ravi Kohli,Baingan Bharta,Bai_002,2,96.05,60.66,0.07,192.1,178.38
+583,2023-10-15, Rohit Dey,Paneer Tikka,Pan_018,2,182.73,121.32,0.08,365.46,337.42
+584,2023-10-16, Amit Reddy,Dhokla,Dho_008,2,50.85,30.33,0.05,101.7,96.61
+585,2023-10-19, Neha Dubey,Chicken Curry,Chi_005,3,202.8,131.43,0.05,608.4,577.98
+586,2023-10-20, Anjali Das,Rajma Chawal,Raj_021,1,101.09,70.77,0.05,101.09,96.03
+587,2023-10-22, Amit Desai,Tandoori Chicken,Tan_023,5,242.4,161.76,0.03,1212,1177.33
+588,2023-10-22, Rahul Agarwal,Kheer,Khe_014,2,65.65,40.44,0.07,131.3,121.92
+589,2023-10-22, Rahul Tiwari,Aloo Paratha,Alo_001,5,65.9,40.44,0.05,329.5,313.02
+590,2023-10-22, Rohit Kumar,Dhokla,Dho_008,1,50.85,30.33,0.08,50.85,46.94
+591,2023-10-26, Isha Nanda,Pav Bhaji,Pav_020,4,70.7,45.495,0.05,282.8,268.66
+592,2023-10-26, Rohit Dey,Pav Bhaji,Pav_020,2,70.7,45.495,0.05,141.4,134.33
+593,2023-10-28, Amit Gupta,Dhokla,Dho_008,2,50.85,30.33,0.05,101.7,96.61
+594,2023-10-29, Priya Dey,Egg Curry,Egg_009,2,111.1,70.77,0.03,222.2,215.84
+595,2023-10-29, Rohit Basak,Biryani,Bir_003,2,152.25,101.1,0.07,304.5,282.75
+596,2023-10-30, Rahul Sinha,Rajma Chawal,Raj_021,4,101.09,70.77,0.05,404.36,384.14
+597,2023-10-31, Anjali Rao,Dhokla,Dho_008,3,50.85,30.33,0.07,152.55,142.37
+598,2023-11-01, Rohit Basak,Pav Bhaji,Pav_020,2,70.7,45.495,0.07,141.4,131.96
+599,2023-11-04, Neha Sinha,Baingan Bharta,Bai_002,4,96.05,60.66,0.05,384.2,364.99
+600,2023-11-04, Rahul Tripathi,Pani Puri,Pan_019,3,15.15,5.055,0.08,45.45,41.96
+601,2023-11-05, Ravi Kohli,Kheer,Khe_014,4,65.65,40.44,0.03,262.6,255.08
+602,2023-11-07, Anjali Menon,Chole Bhature,Cho_006,1,91.71,60.66,0.07,91.71,85.59
+603,2023-11-07, Rohit Dey,Dhokla,Dho_008,2,50.85,30.33,0.08,101.7,93.89
+604,2023-11-08, Isha Nanda,Veg Pulao,Veg_025,4,80.8,50.55,0.05,323.2,307.04
+605,2023-11-09, Amit Verma,Rajma Chawal,Raj_021,1,101.09,70.77,0.07,101.09,93.87
+606,2023-11-09, Priya Banerjee,Pani Puri,Pan_019,5,15.15,5.055,0.07,75.75,70.34
+607,2023-11-09, Vikram Saxena,Dal Makhani,Dal_007,5,141.74,90.99,0.05,708.7,673.26
+608,2023-11-10, Amit Patel,Biryani,Bir_003,4,152.25,101.1,0.05,609,578.55
+609,2023-11-10, Neha Agarwal,Idli Sambhar,Idl_012,5,56.33,35.385,0.05,281.65,267.56
+610,2023-11-10, Ravi Bhatia,Idli Sambhar,Idl_012,3,56.33,35.385,0.07,168.99,156.92
+611,2023-11-11, Priya Sarkar,Rajma Chawal,Raj_021,5,101.09,70.77,0.05,505.45,480.17
+612,2023-11-12, Amit Mehta,Kathi Roll,Kat_013,4,75.75,50.55,0.03,303,294.33
+613,2023-11-12, Priya Basak,Butter Chicken,But_004,1,222.54,151.65,0.07,222.54,207.69
+614,2023-11-13, Isha Gill,Pav Bhaji,Pav_020,5,70.7,45.495,0.05,353.5,335.82
+615,2023-11-13, Vikram Rao,Veg Pulao,Veg_025,2,80.8,50.55,0.08,161.6,149.2
+616,2023-11-14, Vikram Jain,Veg Pulao,Veg_025,3,80.8,50.55,0.07,242.4,225.09
+617,2023-11-16, Amit Gupta,Gulab Jamun,Gul_011,1,35.35,20.22,0.05,35.35,33.58
+618,2023-11-18, Amit Nair,Dhokla,Dho_008,5,50.85,30.33,0.05,254.25,241.53
+619,2023-11-21, Ravi Kohli,Pani Puri,Pan_019,2,15.15,5.055,0.07,30.3,28.27
+620,2023-11-22, Priya Paul,Aloo Paratha,Alo_001,5,65.9,40.44,0.05,329.5,313.02
+621,2023-11-23, Amit Mehta,Biryani,Bir_003,2,152.25,101.1,0.05,304.5,289.27
+622,2023-11-23, Anjali Jain,Rajma Chawal,Raj_021,3,101.09,70.77,0.05,303.27,288.1
+623,2023-11-24, Amit Patel,Kathi Roll,Kat_013,2,75.75,50.55,0.05,151.5,143.92
+624,2023-11-26, Anjali Menon,Tandoori Chicken,Tan_023,4,242.4,161.76,0.07,969.6,904.92
+625,2023-11-26, Sneha Mehta,Egg Curry,Egg_009,5,111.1,70.77,0.05,555.5,527.72
+626,2023-11-26, Sneha Nair,Dal Makhani,Dal_007,5,141.74,90.99,0.08,708.7,654.34
+627,2023-11-28, Rahul Tiwari,Kheer,Khe_014,3,65.65,40.44,0.08,196.95,181.84
+628,2023-11-28, Rohit Dey,Biryani,Bir_003,1,152.25,101.1,0.03,152.25,147.89
+629,2023-11-28, Vikram Thakur,Dal Makhani,Dal_007,2,141.74,90.99,0.05,283.48,269.3
+630,2023-11-29, Anjali Rao,Biryani,Bir_003,3,152.25,101.1,0.07,456.75,426.28
+631,2023-11-29, Rahul Bhatt,Pani Puri,Pan_019,1,15.15,5.055,0.03,15.15,14.71
+632,2023-12-01, Rahul Sinha,Vada Pav,Vad_024,1,25.25,15.165,0.05,25.25,23.98
+633,2023-12-01, Ravi Lal,Kheer,Khe_014,2,65.65,40.44,0.05,131.3,124.73
+634,2023-12-02, Isha Gill,Paneer Tikka,Pan_018,5,182.73,121.32,0.08,913.65,843.57
+635,2023-12-02, Isha Grover,Fish Curry,Fis_010,5,212.1,141.54,0.07,1060.5,989.76
+636,2023-12-02, Ravi Grover,Baingan Bharta,Bai_002,1,96.05,60.66,0.05,96.05,91.24
+637,2023-12-09, Neha Chauhan,Samosa,Sam_022,3,20.2,10.11,0.07,60.6,56.55
+638,2023-12-11, Neha Sinha,Masala Dosa,Mas_015,1,50.75,30.33,0.05,50.75,48.21
+639,2023-12-11, Vikram Thakur,Masala Dosa,Mas_015,2,50.75,30.33,0.08,101.5,93.71
+640,2023-12-12, Anjali Jain,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.05,818.1,777.19
+641,2023-12-12, Rahul Chauhan,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.05,545.4,518.13
+642,2023-12-13, Isha Kohli,Tandoori Chicken,Tan_023,4,242.4,161.76,0.07,969.6,900.37
+643,2023-12-18, Anjali Bansal,Aloo Paratha,Alo_001,2,65.9,40.44,0.03,131.8,128.03
+644,2023-12-18, Priya Dey,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.07,818.1,763.53
+645,2023-12-18, Rohit Sarkar,Dhokla,Dho_008,3,50.85,30.33,0.08,152.55,140.84
+646,2023-12-19, Neha Pandey,Fish Curry,Fis_010,5,212.1,141.54,0.08,1060.5,979.15
+647,2023-12-20, Priya Chatterjee,Aloo Paratha,Alo_001,3,65.9,40.44,0.05,197.7,187.81
+648,2023-12-22, Isha Nanda,Paneer Tikka,Pan_018,1,182.73,121.32,0.05,182.73,173.59
+649,2023-12-24, Anjali Saxena,Gulab Jamun,Gul_011,3,35.35,20.22,0.05,106.05,100.74
+650,2023-12-25, Amit Gupta,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.05,272.7,259.06
+651,2023-12-27, Neha Bhatt,Veg Pulao,Veg_025,2,80.8,50.55,0.03,161.6,156.97
+652,2023-12-28, Neha Tiwari,Chicken Curry,Chi_005,5,202.8,131.43,0.08,1014,936.22
+653,2023-12-28, Priya Basak,Chole Bhature,Cho_006,4,91.71,60.66,0.07,366.84,342.37
+654,2023-12-30, Priya Kumar,Mutton Rogan Josh,Mut_016,5,272.7,181.98,0.03,1363.5,1324.5
+655,2024-01-01, Isha Nanda,Tandoori Chicken,Tan_023,2,242.4,161.76,0.03,484.8,470.93
+656,2024-01-01, Ravi Kaul,Pani Puri,Pan_019,4,15.15,5.055,0.03,60.6,58.86
+657,2024-01-03, Rohit Basak,Fish Curry,Fis_010,4,212.1,141.54,0.03,848.4,824.13
+658,2024-01-04, Ravi Lal,Pani Puri,Pan_019,3,15.15,5.055,0.03,45.45,44.15
+659,2024-01-05, Rahul Mishra,Pani Puri,Pan_019,1,15.15,5.055,0.08,15.15,13.98
+660,2024-01-06, Rohit Dey,Masala Dosa,Mas_015,2,50.75,30.33,0.05,101.5,96.42
+661,2024-01-08, Neha Agarwal,Dal Makhani,Dal_007,5,141.74,90.99,0.05,708.7,673.26
+662,2024-01-09, Sneha Sharma,Baingan Bharta,Bai_002,3,96.05,60.66,0.07,288.15,267.57
+663,2024-01-11, Amit Mehta,Aloo Paratha,Alo_001,2,65.9,40.44,0.08,131.8,121.69
+664,2024-01-11, Ravi Gill,Pani Puri,Pan_019,5,15.15,5.055,0.05,75.75,71.96
+665,2024-01-11, Vikram Das,Pav Bhaji,Pav_020,1,70.7,45.495,0.05,70.7,67.16
+666,2024-01-12, Rohit Mukherjee,Tandoori Chicken,Tan_023,1,242.4,161.76,0.05,242.4,230.28
+667,2024-01-14, Priya Kumar,Aloo Paratha,Alo_001,5,65.9,40.44,0.03,329.5,320.07
+668,2024-01-15, Vikram Malhotra,Fish Curry,Fis_010,1,212.1,141.54,0.08,212.1,195.83
+669,2024-01-15, Vikram Rao,Idli Sambhar,Idl_012,2,56.33,35.385,0.05,112.66,107.02
+670,2024-01-18, Rahul Mishra,Chole Bhature,Cho_006,5,91.71,60.66,0.07,458.55,425.8
+671,2024-01-19, Rahul Tiwari,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.05,818.1,777.19
+672,2024-01-19, Sneha Joshi,Samosa,Sam_022,4,20.2,10.11,0.07,80.8,75.03
+673,2024-01-20, Vikram Thakur,Pav Bhaji,Pav_020,1,70.7,45.495,0.03,70.7,68.67
+674,2024-01-21, Amit Kapoor,Kathi Roll,Kat_013,3,75.75,50.55,0.05,227.25,215.88
+675,2024-01-21, Isha Nanda,Chicken Curry,Chi_005,4,202.8,131.43,0.05,811.2,770.64
+676,2024-01-21, Priya Dey,Rajma Chawal,Raj_021,3,101.09,70.77,0.07,303.27,283.04
+677,2024-01-21, Vikram Saxena,Veg Pulao,Veg_025,3,80.8,50.55,0.07,242.4,225.09
+678,2024-01-22, Vikram Jain,Pav Bhaji,Pav_020,1,70.7,45.495,0.05,70.7,67.16
+679,2024-01-23, Priya Kumar,Gulab Jamun,Gul_011,5,35.35,20.22,0.03,176.75,171.69
+680,2024-01-24, Ravi Grover,Palak Paneer,Pal_017,3,161.6,101.1,0.08,484.8,447.61
+681,2024-01-25, Ravi Bhatia,Baingan Bharta,Bai_002,3,96.05,60.66,0.07,288.15,267.57
+682,2024-01-26, Anjali Malhotra,Paneer Tikka,Pan_018,5,182.73,121.32,0.03,913.65,887.51
+683,2024-01-26, Sneha Sharma,Vada Pav,Vad_024,3,25.25,15.165,0.05,75.75,71.96
+684,2024-01-27, Anjali Iyer,Chole Bhature,Cho_006,5,91.71,60.66,0.08,458.55,423.37
+685,2024-01-27, Priya Sen,Gulab Jamun,Gul_011,4,35.35,20.22,0.05,141.4,134.33
+686,2024-01-28, Neha Agarwal,Fish Curry,Fis_010,4,212.1,141.54,0.07,848.4,787.82
+687,2024-01-28, Ravi Kohli,Dal Makhani,Dal_007,2,141.74,90.99,0.07,283.48,263.23
+688,2024-01-29, Vikram Rao,Fish Curry,Fis_010,2,212.1,141.54,0.08,424.2,391.66
+689,2024-01-30, Rahul Roy,Rajma Chawal,Raj_021,2,101.09,70.77,0.05,202.18,192.07
+690,2024-01-31, Ravi Kohli,Palak Paneer,Pal_017,3,161.6,101.1,0.08,484.8,447.61
+691,2024-02-02, Isha Kohli,Veg Pulao,Veg_025,4,80.8,50.55,0.07,323.2,301.64
+692,2024-02-02, Isha Mahajan,Veg Pulao,Veg_025,3,80.8,50.55,0.07,242.4,226.23
+693,2024-02-02, Rahul Agarwal,Vada Pav,Vad_024,2,25.25,15.165,0.07,50.5,46.89
+694,2024-02-02, Ravi Gill,Dal Makhani,Dal_007,3,141.74,90.99,0.08,425.22,392.6
+1102,2024-02-02, Ravi Gill,Egg Curry,Egg_009,2,111.1,70.77,0.07,222.2,207.37
+695,2024-02-03, Priya Chatterjee,Pani Puri,Pan_019,2,15.15,5.055,0.05,30.3,28.78
+696,2024-02-03, Rahul Dubey,Aloo Paratha,Alo_001,3,65.9,40.44,0.05,197.7,187.81
+697,2024-02-04, Ravi Nanda,Butter Chicken,But_004,3,222.54,151.65,0.03,667.62,648.52
+698,2024-02-05, Anjali Das,Gulab Jamun,Gul_011,1,35.35,20.22,0.05,35.35,33.58
+699,2024-02-05, Priya Sarkar,Kheer,Khe_014,5,65.65,40.44,0.08,328.25,303.07
+700,2024-02-06, Vikram Saxena,Samosa,Sam_022,5,20.2,10.11,0.03,101,98.11
+701,2024-02-07, Neha Sinha,Chicken Curry,Chi_005,1,202.8,131.43,0.05,202.8,192.66
+702,2024-02-08, Anjali Saxena,Paneer Tikka,Pan_018,5,182.73,121.32,0.07,913.65,852.7
+703,2024-02-08, Rahul Agarwal,Egg Curry,Egg_009,2,111.1,70.77,0.07,222.2,206.33
+704,2024-02-08, Rohit Basu,Pav Bhaji,Pav_020,5,70.7,45.495,0.05,353.5,335.82
+1103,2024-02-08, Rohit Basu,Tandoori Chicken,Tan_023,3,242.4,161.76,0.07,727.2,675.27
+705,2024-02-08, Vikram Iyer,Masala Dosa,Mas_015,1,50.75,30.33,0.05,50.75,48.21
+706,2024-02-09, Priya Sen,Rajma Chawal,Raj_021,5,101.09,70.77,0.05,505.45,480.17
+707,2024-02-09, Rohit Paul,Chicken Curry,Chi_005,4,202.8,131.43,0.05,811.2,770.64
+708,2024-02-12, Priya Basu,Chole Bhature,Cho_006,5,91.71,60.66,0.05,458.55,435.62
+709,2024-02-12, Rahul Chauhan,Chole Bhature,Cho_006,2,91.71,60.66,0.05,183.42,174.24
+710,2024-02-13, Neha Dubey,Palak Paneer,Pal_017,5,161.6,101.1,0.07,808,754.1
+711,2024-02-13, Neha Pandey,Samosa,Sam_022,5,20.2,10.11,0.05,101,95.95
+712,2024-02-14, Rahul Dubey,Butter Chicken,But_004,3,222.54,151.65,0.07,667.62,619.95
+713,2024-02-16, Rahul Roy,Vada Pav,Vad_024,1,25.25,15.165,0.05,25.25,23.98
+714,2024-02-20, Vikram Thakur,Chicken Curry,Chi_005,2,202.8,131.43,0.08,405.6,374.49
+715,2024-02-21, Vikram Iyer,Baingan Bharta,Bai_002,2,96.05,60.66,0.07,192.1,179.28
+716,2024-02-22, Ravi Nanda,Kheer,Khe_014,2,65.65,40.44,0.05,131.3,124.73
+717,2024-02-23, Amit Kapoor,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.08,818.1,755.35
+718,2024-02-23, Vikram Singh,Fish Curry,Fis_010,1,212.1,141.54,0.07,212.1,196.95
+719,2024-02-28, Rahul Chauhan,Butter Chicken,But_004,1,222.54,151.65,0.03,222.54,216.17
+720,2024-02-29, Amit Reddy,Tandoori Chicken,Tan_023,4,242.4,161.76,0.05,969.6,921.12
+721,2024-03-01, Priya Sen,Egg Curry,Egg_009,2,111.1,70.77,0.03,222.2,215.84
+722,2024-03-03, Amit Joshi,Dhokla,Dho_008,4,50.85,30.33,0.03,203.4,197.58
+723,2024-03-04, Ravi Mahajan,Idli Sambhar,Idl_012,1,56.33,35.385,0.03,56.33,54.71
+724,2024-03-04, Rohit Kumar,Tandoori Chicken,Tan_023,1,242.4,161.76,0.08,242.4,223.8
+725,2024-03-04, Sneha Patel,Palak Paneer,Pal_017,4,161.6,101.1,0.08,646.4,596.82
+726,2024-03-06, Sneha Gupta,Palak Paneer,Pal_017,2,161.6,101.1,0.05,323.2,307.04
+727,2024-03-07, Ravi Rawat,Baingan Bharta,Bai_002,2,96.05,60.66,0.08,192.1,177.36
+728,2024-03-08, Amit Joshi,Mutton Rogan Josh,Mut_016,1,272.7,181.98,0.05,272.7,259.06
+729,2024-03-08, Isha Kaul,Veg Pulao,Veg_025,4,80.8,50.55,0.07,323.2,301.64
+730,2024-03-08, Vikram Iyer,Chicken Curry,Chi_005,1,202.8,131.43,0.05,202.8,192.66
+731,2024-03-10, Vikram Menon,Fish Curry,Fis_010,2,212.1,141.54,0.07,424.2,393.91
+732,2024-03-11, Rohit Sarkar,Paneer Tikka,Pan_018,1,182.73,121.32,0.05,182.73,173.59
+733,2024-03-14, Isha Rawat,Veg Pulao,Veg_025,5,80.8,50.55,0.05,404,383.8
+734,2024-03-16, Neha Tripathi,Samosa,Sam_022,4,20.2,10.11,0.07,80.8,75.41
+735,2024-03-17, Priya Chatterjee,Egg Curry,Egg_009,1,111.1,70.77,0.05,111.1,105.54
+736,2024-03-18, Priya Banerjee,Kheer,Khe_014,3,65.65,40.44,0.05,196.95,187.1
+737,2024-03-18, Rohit Kumar,Veg Pulao,Veg_025,3,80.8,50.55,0.03,242.4,235.46
+738,2024-03-20, Rahul Bhatt,Aloo Paratha,Alo_001,2,65.9,40.44,0.05,131.8,125.21
+739,2024-03-20, Sneha Verma,Vada Pav,Vad_024,4,25.25,15.165,0.05,101,95.95
+740,2024-03-22, Isha Bhatia,Tandoori Chicken,Tan_023,5,242.4,161.76,0.07,1212,1125.46
+741,2024-03-22, Ravi Nanda,Idli Sambhar,Idl_012,1,56.33,35.385,0.05,56.33,53.51
+742,2024-03-23, Amit Patel,Aloo Paratha,Alo_001,2,65.9,40.44,0.08,131.8,121.69
+743,2024-03-24, Amit Nair,Aloo Paratha,Alo_001,3,65.9,40.44,0.08,197.7,182.53
+744,2024-03-24, Sneha Gupta,Egg Curry,Egg_009,4,111.1,70.77,0.05,444.4,422.18
+745,2024-03-27, Neha Dubey,Fish Curry,Fis_010,3,212.1,141.54,0.05,636.3,604.48
+746,2024-03-27, Priya Paul,Pani Puri,Pan_019,4,15.15,5.055,0.07,60.6,56.27
+747,2024-03-27, Rohit Banerjee,Chicken Curry,Chi_005,5,202.8,131.43,0.05,1014,963.3
+748,2024-03-28, Sneha Mehta,Palak Paneer,Pal_017,4,161.6,101.1,0.07,646.4,600.24
+749,2024-03-29, Amit Verma,Paneer Tikka,Pan_018,3,182.73,121.32,0.03,548.19,532.51
+750,2024-03-29, Isha Bhatia,Fish Curry,Fis_010,5,212.1,141.54,0.07,1060.5,989.76
+751,2024-03-30, Anjali Bansal,Kathi Roll,Kat_013,5,75.75,50.55,0.05,378.75,359.81
+1104,2024-03-30, Anjali Bansal,Paneer Tikka,Pan_018,5,182.73,121.32,0.05,913.65,867.96
+752,2024-03-30, Anjali Jain,Dhokla,Dho_008,5,50.85,30.33,0.05,254.25,241.53
+753,2024-03-30, Isha Rawat,Paneer Tikka,Pan_018,2,182.73,121.32,0.03,365.46,355
+754,2024-03-30, Neha Agarwal,Palak Paneer,Pal_017,5,161.6,101.1,0.05,808,767.6
+755,2024-04-01, Amit Mehta,Tandoori Chicken,Tan_023,4,242.4,161.76,0.03,969.6,941.86
+756,2024-04-01, Ravi Lal,Vada Pav,Vad_024,2,25.25,15.165,0.05,50.5,47.97
+757,2024-04-02, Amit Patel,Rajma Chawal,Raj_021,1,101.09,70.77,0.03,101.09,98.19
+758,2024-04-04, Amit Reddy,Aloo Paratha,Alo_001,2,65.9,40.44,0.08,131.8,121.69
+759,2024-04-04, Neha Chauhan,Pav Bhaji,Pav_020,2,70.7,45.495,0.03,141.4,137.35
+760,2024-04-04, Priya Mukherjee,Aloo Paratha,Alo_001,4,65.9,40.44,0.05,263.6,250.42
+761,2024-04-04, Vikram Bansal,Baingan Bharta,Bai_002,4,96.05,60.66,0.05,384.2,364.99
+762,2024-04-07, Rohit Dey,Fish Curry,Fis_010,2,212.1,141.54,0.05,424.2,402.99
+763,2024-04-09, Rahul Tripathi,Kheer,Khe_014,1,65.65,40.44,0.05,65.65,62.36
+764,2024-04-11, Isha Grover,Masala Dosa,Mas_015,5,50.75,30.33,0.07,253.75,236.82
+765,2024-04-12, Priya Paul,Egg Curry,Egg_009,4,111.1,70.77,0.07,444.4,412.66
+766,2024-04-12, Rahul Chauhan,Rajma Chawal,Raj_021,2,101.09,70.77,0.05,202.18,192.07
+767,2024-04-12, Vikram Malhotra,Veg Pulao,Veg_025,1,80.8,50.55,0.08,80.8,74.6
+768,2024-04-14, Neha Mishra,Dal Makhani,Dal_007,5,141.74,90.99,0.03,708.7,688.43
+769,2024-04-15, Anjali Jain,Gulab Jamun,Gul_011,5,35.35,20.22,0.08,176.75,163.19
+770,2024-04-15, Rohit Banerjee,Paneer Tikka,Pan_018,3,182.73,121.32,0.07,548.19,509.04
+771,2024-04-16, Isha Ghosh,Paneer Tikka,Pan_018,1,182.73,121.32,0.05,182.73,173.59
+772,2024-04-16, Priya Kumar,Rajma Chawal,Raj_021,5,101.09,70.77,0.03,505.45,490.99
+773,2024-04-16, Rahul Bhatt,Mutton Rogan Josh,Mut_016,2,272.7,181.98,0.05,545.4,518.13
+774,2024-04-18, Rahul Sinha,Butter Chicken,But_004,1,222.54,151.65,0.05,222.54,211.41
+775,2024-04-19, Anjali Das,Chole Bhature,Cho_006,1,91.71,60.66,0.05,91.71,87.12
+776,2024-04-19, Anjali Thakur,Dhokla,Dho_008,4,50.85,30.33,0.05,203.4,193.23
+777,2024-04-20, Sneha Joshi,Palak Paneer,Pal_017,4,161.6,101.1,0.07,646.4,600.24
+778,2024-04-22, Priya Sen,Mutton Rogan Josh,Mut_016,4,272.7,181.98,0.05,1090.8,1036.26
+779,2024-04-22, Vikram Das,Samosa,Sam_022,4,20.2,10.11,0.05,80.8,76.76
+780,2024-04-26, Anjali Menon,Mutton Rogan Josh,Mut_016,4,272.7,181.98,0.07,1090.8,1012.91
+781,2024-04-26, Ravi Grover,Dal Makhani,Dal_007,3,141.74,90.99,0.08,425.22,392.6
+782,2024-04-27, Sneha Sharma,Idli Sambhar,Idl_012,1,56.33,35.385,0.05,56.33,53.51
+783,2024-04-28, Priya Basak,Aloo Paratha,Alo_001,4,65.9,40.44,0.07,263.6,246.01
+784,2024-04-28, Sneha Gupta,Samosa,Sam_022,1,20.2,10.11,0.05,20.2,19.19
+785,2024-04-28, Sneha Nair,Vada Pav,Vad_024,5,25.25,15.165,0.07,126.25,117.82
+786,2024-05-01, Vikram Thakur,Samosa,Sam_022,4,20.2,10.11,0.05,80.8,76.76
+787,2024-05-02, Anjali Rao,Kathi Roll,Kat_013,3,75.75,50.55,0.07,227.25,212.09
+788,2024-05-02, Neha Tiwari,Pav Bhaji,Pav_020,3,70.7,45.495,0.05,212.1,201.49
+789,2024-05-03, Amit Mehta,Dhokla,Dho_008,4,50.85,30.33,0.05,203.4,193.23
+790,2024-05-05, Anjali Das,Paneer Tikka,Pan_018,4,182.73,121.32,0.05,730.92,694.37
+791,2024-05-07, Amit Desai,Chole Bhature,Cho_006,3,91.71,60.66,0.07,275.13,255.48
+792,2024-05-07, Rahul Dubey,Vada Pav,Vad_024,3,25.25,15.165,0.07,75.75,70.34
+793,2024-05-07, Vikram Das,Veg Pulao,Veg_025,1,80.8,50.55,0.05,80.8,76.76
+794,2024-05-10, Neha Pandey,Chicken Curry,Chi_005,5,202.8,131.43,0.08,1014,936.22
+795,2024-05-13, Neha Roy,Pav Bhaji,Pav_020,1,70.7,45.495,0.05,70.7,67.16
+796,2024-05-14, Priya Basak,Egg Curry,Egg_009,4,111.1,70.77,0.07,444.4,412.66
+797,2024-05-18, Ravi Grover,Kheer,Khe_014,5,65.65,40.44,0.05,328.25,311.83
+798,2024-05-20, Anjali Menon,Kathi Roll,Kat_013,4,75.75,50.55,0.07,303,282.78
+799,2024-05-20, Priya Paul,Chole Bhature,Cho_006,5,91.71,60.66,0.05,458.55,435.62
+800,2024-05-21, Ravi Rawat,Dal Makhani,Dal_007,2,141.74,90.99,0.08,283.48,261.73
+801,2024-05-22, Ravi Rawat,Samosa,Sam_022,2,20.2,10.11,0.08,40.4,37.3
+802,2024-05-25, Anjali Thakur,Biryani,Bir_003,3,152.25,101.1,0.07,456.75,426.28
+803,2024-05-26, Rahul Dubey,Gulab Jamun,Gul_011,5,35.35,20.22,0.05,176.75,167.91
+804,2024-05-26, Rohit Chatterjee,Paneer Tikka,Pan_018,1,182.73,121.32,0.07,182.73,169.68
+805,2024-05-28, Rohit Sen,Masala Dosa,Mas_015,2,50.75,30.33,0.05,101.5,96.42
+806,2024-05-31, Sneha Verma,Butter Chicken,But_004,3,222.54,151.65,0.05,667.62,634.23
+807,2024-05-31, Vikram Saxena,Palak Paneer,Pal_017,5,161.6,101.1,0.03,808,784.89
+808,2024-06-02, Neha Dubey,Dal Makhani,Dal_007,5,141.74,90.99,0.07,708.7,661.42
+809,2024-06-03, Isha Grover,Tandoori Chicken,Tan_023,3,242.4,161.76,0.05,727.2,690.84
+810,2024-06-04, Rahul Dubey,Chole Bhature,Cho_006,5,91.71,60.66,0.05,458.55,435.62
+811,2024-06-05, Isha Kaul,Kathi Roll,Kat_013,1,75.75,50.55,0.07,75.75,70.69
+812,2024-06-05, Ravi Kaul,Vada Pav,Vad_024,4,25.25,15.165,0.03,101,98.11
+813,2024-06-07, Rohit Basak,Veg Pulao,Veg_025,2,80.8,50.55,0.07,161.6,150.82
+814,2024-06-08, Vikram Thakur,Fish Curry,Fis_010,2,212.1,141.54,0.08,424.2,391.66
+815,2024-06-10, Anjali Thakur,Rajma Chawal,Raj_021,2,101.09,70.77,0.03,202.18,196.39
+816,2024-06-10, Rahul Mishra,Kheer,Khe_014,1,65.65,40.44,0.08,65.65,60.61
+817,2024-06-13, Isha Kohli,Paneer Tikka,Pan_018,1,182.73,121.32,0.07,182.73,170.54
+818,2024-06-15, Neha Agarwal,Samosa,Sam_022,4,20.2,10.11,0.07,80.8,75.41
+819,2024-06-16, Priya Basu,Rajma Chawal,Raj_021,5,101.09,70.77,0.07,505.45,471.73
+820,2024-06-16, Priya Paul,Vada Pav,Vad_024,4,25.25,15.165,0.07,101,93.78
+821,2024-06-18, Ravi Mahajan,Egg Curry,Egg_009,4,111.1,70.77,0.05,444.4,422.18
+822,2024-06-18, Sneha Nair,Butter Chicken,But_004,5,222.54,151.65,0.05,1112.7,1057.06
+823,2024-06-19, Neha Mishra,Masala Dosa,Mas_015,2,50.75,30.33,0.05,101.5,96.42
+824,2024-06-21, Amit Desai,Kathi Roll,Kat_013,5,75.75,50.55,0.05,378.75,359.81
+825,2024-06-21, Rahul Pandey,Kheer,Khe_014,3,65.65,40.44,0.08,196.95,181.84
+826,2024-06-22, Anjali Singh,Dhokla,Dho_008,3,50.85,30.33,0.05,152.55,144.92
+827,2024-06-26, Anjali Menon,Rajma Chawal,Raj_021,4,101.09,70.77,0.07,404.36,375.48
+828,2024-06-27, Ravi Nanda,Dal Makhani,Dal_007,1,141.74,90.99,0.05,141.74,134.65
+829,2024-06-29, Anjali Menon,Paneer Tikka,Pan_018,4,182.73,121.32,0.07,730.92,682.16
+830,2024-06-29, Isha Ghosh,Tandoori Chicken,Tan_023,1,242.4,161.76,0.05,242.4,230.28
+831,2024-06-30, Amit Nair,Gulab Jamun,Gul_011,3,35.35,20.22,0.08,106.05,97.91
+832,2024-06-30, Rohit Basu,Chicken Curry,Chi_005,3,202.8,131.43,0.05,608.4,577.98
+833,2024-07-02, Sneha Reddy,Samosa,Sam_022,2,20.2,10.11,0.03,40.4,39.24
+834,2024-07-04, Rahul Mishra,Gulab Jamun,Gul_011,5,35.35,20.22,0.07,176.75,164.13
+835,2024-07-04, Sneha Desai,Palak Paneer,Pal_017,3,161.6,101.1,0.05,484.8,460.56
+836,2024-07-05, Priya Kumar,Vada Pav,Vad_024,2,25.25,15.165,0.05,50.5,47.97
+837,2024-07-07, Neha Tripathi,Pav Bhaji,Pav_020,4,70.7,45.495,0.07,282.8,262.6
+838,2024-07-08, Priya Paul,Rajma Chawal,Raj_021,4,101.09,70.77,0.07,404.36,377.38
+839,2024-07-09, Ravi Nanda,Egg Curry,Egg_009,3,111.1,70.77,0.03,333.3,323.76
+840,2024-07-11, Anjali Saxena,Mutton Rogan Josh,Mut_016,3,272.7,181.98,0.05,818.1,777.19
+841,2024-07-11, Vikram Saxena,Chicken Curry,Chi_005,3,202.8,131.43,0.07,608.4,564.96
+842,2024-07-12, Sneha Gupta,Dal Makhani,Dal_007,1,141.74,90.99,0.05,141.74,134.65
+843,2024-07-16, Vikram Iyer,Samosa,Sam_022,3,20.2,10.11,0.05,60.6,57.57
+844,2024-07-18, Isha Nanda,Dhokla,Dho_008,1,50.85,30.33,0.05,50.85,48.3
+845,2024-07-18, Ravi Mahajan,Butter Chicken,But_004,2,222.54,151.65,0.05,445.08,422.82
+846,2024-07-19, Isha Kohli,Chicken Curry,Chi_005,4,202.8,131.43,0.07,811.2,757.09
+847,2024-07-21, Amit Nair,Tandoori Chicken,Tan_023,5,242.4,161.76,0.05,1212,1151.4
+848,2024-07-21, Priya Basak,Gulab Jamun,Gul_011,4,35.35,20.22,0.07,141.4,131.96
+849,2024-07-21, Rohit Mukherjee,Fish Curry,Fis_010,2,212.1,141.54,0.05,424.2,402.99
+850,2024-07-22, Rahul Pandey,Vada Pav,Vad_024,3,25.25,15.165,0.08,75.75,69.93
+851,2024-07-25, Isha Kohli,Fish Curry,Fis_010,4,212.1,141.54,0.07,848.4,791.81
+852,2024-07-26, Rohit Paul,Tandoori Chicken,Tan_023,2,242.4,161.76,0.07,484.8,450.18
+853,2024-07-26, Sneha Mehta,Baingan Bharta,Bai_002,2,96.05,60.66,0.03,192.1,186.6
+854,2024-07-27, Isha Rawat,Fish Curry,Fis_010,4,212.1,141.54,0.05,848.4,805.98
+855,2024-07-27, Neha Roy,Palak Paneer,Pal_017,3,161.6,101.1,0.05,484.8,460.56
+856,2024-07-28, Ravi Nanda,Samosa,Sam_022,1,20.2,10.11,0.05,20.2,19.19
+857,2024-07-28, Rohit Basak,Paneer Tikka,Pan_018,1,182.73,121.32,0.05,182.73,173.59
+858,2024-07-30, Neha Dubey,Pav Bhaji,Pav_020,5,70.7,45.495,0.07,353.5,328.26
+859,2024-08-01, Rahul Agarwal,Rajma Chawal,Raj_021,4,101.09,70.77,0.03,404.36,392.79
+860,2024-08-02, Amit Mehta,Rajma Chawal,Raj_021,2,101.09,70.77,0.07,202.18,187.74
+861,2024-08-03, Isha Grover,Veg Pulao,Veg_025,5,80.8,50.55,0.07,404,377.05
+862,2024-08-03, Ravi Kaul,Butter Chicken,But_004,4,222.54,151.65,0.05,890.16,845.65
+863,2024-08-04, Rohit Banerjee,Kathi Roll,Kat_013,3,75.75,50.55,0.07,227.25,211.02
+864,2024-08-05, Vikram Das,Palak Paneer,Pal_017,3,161.6,101.1,0.03,484.8,470.93
+865,2024-08-08, Ravi Lal,Butter Chicken,But_004,2,222.54,151.65,0.05,445.08,422.82
+866,2024-08-08, Vikram Menon,Palak Paneer,Pal_017,2,161.6,101.1,0.07,323.2,301.64
+867,2024-08-09, Neha Bhatt,Dal Makhani,Dal_007,4,141.74,90.99,0.05,566.96,538.61
+868,2024-08-09, Rahul Pandey,Aloo Paratha,Alo_001,2,65.9,40.44,0.07,131.8,123
+869,2024-08-09, Vikram Jain,Masala Dosa,Mas_015,3,50.75,30.33,0.08,152.25,140.57
+870,2024-08-12, Rahul Mishra,Vada Pav,Vad_024,1,25.25,15.165,0.08,25.25,23.31
+871,2024-08-14, Rohit Paul,Biryani,Bir_003,2,152.25,101.1,0.08,304.5,281.14
+872,2024-08-14, Sneha Desai,Butter Chicken,But_004,5,222.54,151.65,0.07,1112.7,1038.48
+873,2024-08-15, Anjali Jain,Chole Bhature,Cho_006,5,91.71,60.66,0.08,458.55,423.37
+874,2024-08-16, Vikram Jain,Dal Makhani,Dal_007,5,141.74,90.99,0.05,708.7,673.26
+875,2024-08-17, Amit Sharma,Rajma Chawal,Raj_021,1,101.09,70.77,0.08,101.09,93.33
+876,2024-08-17, Sneha Kapoor,Butter Chicken,But_004,5,222.54,151.65,0.05,1112.7,1057.06
+877,2024-08-20, Amit Desai,Paneer Tikka,Pan_018,5,182.73,121.32,0.03,913.65,887.51
+878,2024-08-20, Priya Banerjee,Mutton Rogan Josh,Mut_016,5,272.7,181.98,0.07,1363.5,1272.55
+879,2024-08-26, Rohit Chatterjee,Chicken Curry,Chi_005,2,202.8,131.43,0.05,405.6,385.32
+880,2024-08-28, Anjali Saxena,Chole Bhature,Cho_006,3,91.71,60.66,0.05,275.13,261.37
+881,2024-08-29, Ravi Kohli,Idli Sambhar,Idl_012,3,56.33,35.385,0.08,168.99,156.02
+882,2024-08-31, Neha Bhatt,Palak Paneer,Pal_017,4,161.6,101.1,0.05,646.4,614.08
+883,2024-08-31, Ravi Nanda,Vada Pav,Vad_024,4,25.25,15.165,0.05,101,95.95
+884,2024-08-31, Rohit Mukherjee,Masala Dosa,Mas_015,2,50.75,30.33,0.05,101.5,96.42
+885,2024-09-03, Isha Kaul,Pav Bhaji,Pav_020,4,70.7,45.495,0.07,282.8,263.93
+886,2024-09-03, Ravi Ghosh,Vada Pav,Vad_024,2,25.25,15.165,0.05,50.5,47.97
+887,2024-09-06, Anjali Rao,Chole Bhature,Cho_006,2,91.71,60.66,0.03,183.42,178.17
+888,2024-09-06, Neha Roy,Fish Curry,Fis_010,2,212.1,141.54,0.05,424.2,402.99
+889,2024-09-08, Priya Dey,Kheer,Khe_014,2,65.65,40.44,0.03,131.3,127.54
+890,2024-09-10, Vikram Bansal,Idli Sambhar,Idl_012,4,56.33,35.385,0.03,225.32,218.87
+891,2024-09-11, Isha Kaul,Chicken Curry,Chi_005,5,202.8,131.43,0.05,1014,963.3
+892,2024-09-11, Neha Mishra,Palak Paneer,Pal_017,5,161.6,101.1,0.03,808,784.89
+893,2024-09-11, Vikram Bansal,Fish Curry,Fis_010,2,212.1,141.54,0.07,424.2,393.91
+894,2024-09-13, Ravi Kohli,Butter Chicken,But_004,4,222.54,151.65,0.03,890.16,864.7
+895,2024-09-17, Neha Sinha,Fish Curry,Fis_010,2,212.1,141.54,0.05,424.2,402.99
+896,2024-09-18, Vikram Menon,Samosa,Sam_022,2,20.2,10.11,0.07,40.4,37.7
+897,2024-09-19, Ravi Kohli,Egg Curry,Egg_009,4,111.1,70.77,0.03,444.4,431.69
+898,2024-09-20, Ravi Lal,Egg Curry,Egg_009,3,111.1,70.77,0.03,333.3,323.76
+899,2024-09-22, Ravi Gill,Palak Paneer,Pal_017,1,161.6,101.1,0.05,161.6,153.52
+900,2024-09-23, Isha Ghosh,Kathi Roll,Kat_013,1,75.75,50.55,0.05,75.75,71.96
+901,2024-09-23, Rahul Sinha,Kheer,Khe_014,1,65.65,40.44,0.05,65.65,62.36
+902,2024-09-23, Vikram Rao,Chicken Curry,Chi_005,1,202.8,131.43,0.03,202.8,196.99
+903,2024-09-24, Isha Lal,Tandoori Chicken,Tan_023,2,242.4,161.76,0.05,484.8,460.56
+904,2024-09-24, Isha Rawat,Dhokla,Dho_008,2,50.85,30.33,0.03,101.7,98.79
+905,2024-09-24, Vikram Singh,Dal Makhani,Dal_007,3,141.74,90.99,0.03,425.22,413.05
+906,2024-09-25, Isha Rawat,Tandoori Chicken,Tan_023,2,242.4,161.76,0.03,484.8,470.93
+907,2024-09-27, Ravi Ghosh,Pani Puri,Pan_019,2,15.15,5.055,0.05,30.3,28.78
+908,2024-09-30, Sneha Patel,Dal Makhani,Dal_007,2,141.74,90.99,0.03,283.48,275.37
+909,2024-10-01, Rohit Banerjee,Biryani,Bir_003,3,152.25,101.1,0.07,456.75,424.13
+910,2024-10-03, Anjali Saxena,Kathi Roll,Kat_013,5,75.75,50.55,0.07,378.75,353.48
+911,2024-10-09, Amit Joshi,Rajma Chawal,Raj_021,3,101.09,70.77,0.08,303.27,280
+912,2024-10-09, Ravi Mahajan,Pani Puri,Pan_019,2,15.15,5.055,0.05,30.3,28.78
+913,2024-10-11, Priya Mukherjee,Pani Puri,Pan_019,2,15.15,5.055,0.05,30.3,28.78
+914,2024-10-12, Ravi Kaul,Samosa,Sam_022,2,20.2,10.11,0.07,40.4,37.51
+915,2024-10-12, Rohit Chatterjee,Tandoori Chicken,Tan_023,1,242.4,161.76,0.05,242.4,230.28
+916,2024-10-13, Ravi Bhatia,Kheer,Khe_014,5,65.65,40.44,0.05,328.25,311.83
+917,2024-10-14, Sneha Verma,Samosa,Sam_022,2,20.2,10.11,0.05,40.4,38.38
+918,2024-10-15, Isha Mahajan,Kathi Roll,Kat_013,4,75.75,50.55,0.08,303,279.75
+919,2024-10-18, Isha Rawat,Masala Dosa,Mas_015,4,50.75,30.33,0.05,203,192.85
+920,2024-10-18, Priya Chatterjee,Gulab Jamun,Gul_011,3,35.35,20.22,0.05,106.05,100.74
+921,2024-10-18, Priya Sen,Vada Pav,Vad_024,2,25.25,15.165,0.03,50.5,49.05
+922,2024-10-21, Anjali Iyer,Dhokla,Dho_008,5,50.85,30.33,0.05,254.25,241.53
+923,2024-10-25, Ravi Mahajan,Kheer,Khe_014,2,65.65,40.44,0.05,131.3,124.73
+924,2024-10-26, Neha Mishra,Pav Bhaji,Pav_020,2,70.7,45.495,0.05,141.4,134.33
+925,2024-10-26, Neha Tiwari,Idli Sambhar,Idl_012,5,56.33,35.385,0.07,281.65,262.86
+926,2024-10-26, Sneha Reddy,Idli Sambhar,Idl_012,2,56.33,35.385,0.03,112.66,109.43
+927,2024-10-28, Vikram Singh,Idli Sambhar,Idl_012,2,56.33,35.385,0.05,112.66,107.02
+928,2024-10-30, Vikram Jain,Samosa,Sam_022,3,20.2,10.11,0.05,60.6,57.57
+929,2024-11-01, Priya Paul,Mutton Rogan Josh,Mut_016,5,272.7,181.98,0.05,1363.5,1295.32
+930,2024-11-01, Vikram Saxena,Pav Bhaji,Pav_020,3,70.7,45.495,0.07,212.1,196.95
+931,2024-11-04, Anjali Iyer,Rajma Chawal,Raj_021,5,101.09,70.77,0.08,505.45,466.68
+932,2024-11-08, Neha Mishra,Idli Sambhar,Idl_012,5,56.33,35.385,0.03,281.65,273.59
+933,2024-11-08, Rahul Tripathi,Aloo Paratha,Alo_001,4,65.9,40.44,0.03,263.6,256.06
+934,2024-11-11, Priya Sarkar,Chole Bhature,Cho_006,5,91.71,60.66,0.05,458.55,435.62
+935,2024-11-11, Vikram Singh,Veg Pulao,Veg_025,1,80.8,50.55,0.05,80.8,76.76
+936,2024-11-13, Vikram Bansal,Dal Makhani,Dal_007,4,141.74,90.99,0.05,566.96,538.61
+937,2024-11-14, Anjali Malhotra,Aloo Paratha,Alo_001,3,65.9,40.44,0.07,197.7,183.58
+938,2024-11-14, Isha Kohli,Dhokla,Dho_008,4,50.85,30.33,0.07,203.4,188.87
+939,2024-11-15, Ravi Grover,Samosa,Sam_022,3,20.2,10.11,0.08,60.6,55.95
+940,2024-11-15, Vikram Jain,Fish Curry,Fis_010,3,212.1,141.54,0.08,636.3,587.49
+941,2024-11-18, Amit Verma,Tandoori Chicken,Tan_023,2,242.4,161.76,0.05,484.8,460.56
+942,2024-11-19, Rohit Mukherjee,Biryani,Bir_003,1,152.25,101.1,0.05,152.25,144.63
+943,2024-11-20, Priya Chatterjee,Chole Bhature,Cho_006,3,91.71,60.66,0.05,275.13,261.37
+944,2024-11-21, Rohit Sarkar,Veg Pulao,Veg_025,3,80.8,50.55,0.05,242.4,230.28
+945,2024-11-22, Anjali Rao,Paneer Tikka,Pan_018,3,182.73,121.32,0.07,548.19,511.62
+946,2024-11-23, Neha Sinha,Idli Sambhar,Idl_012,4,56.33,35.385,0.05,225.32,214.05
+947,2024-11-24, Amit Desai,Biryani,Bir_003,3,152.25,101.1,0.05,456.75,433.91
+948,2024-11-24, Vikram Iyer,Dal Makhani,Dal_007,2,141.74,90.99,0.07,283.48,264.57
+949,2024-11-25, Rohit Chatterjee,Fish Curry,Fis_010,2,212.1,141.54,0.05,424.2,402.99
+950,2024-11-27, Vikram Thakur,Idli Sambhar,Idl_012,2,56.33,35.385,0.05,112.66,107.02
+951,2024-11-28, Rohit Kumar,Kathi Roll,Kat_013,1,75.75,50.55,0.08,75.75,69.93
+952,2024-11-28, Sneha Nair,Idli Sambhar,Idl_012,5,56.33,35.385,0.08,281.65,260.04
+953,2024-11-29, Ravi Gill,Baingan Bharta,Bai_002,1,96.05,60.66,0.05,96.05,91.24
+954,2024-12-01, Amit Nair,Paneer Tikka,Pan_018,5,182.73,121.32,0.05,913.65,867.96
+955,2024-12-02, Neha Roy,Chicken Curry,Chi_005,2,202.8,131.43,0.05,405.6,385.32
+956,2024-12-02, Priya Basu,Aloo Paratha,Alo_001,5,65.9,40.44,0.05,329.5,313.02
+957,2024-12-02, Priya Chatterjee,Vada Pav,Vad_024,2,25.25,15.165,0.05,50.5,47.97
+958,2024-12-03, Sneha Patel,Butter Chicken,But_004,4,222.54,151.65,0.05,890.16,845.65
+959,2024-12-05, Rahul Bhatt,Kheer,Khe_014,2,65.65,40.44,0.08,131.3,121.22
+960,2024-12-05, Ravi Lal,Dal Makhani,Dal_007,1,141.74,90.99,0.07,141.74,131.61
+961,2024-12-06, Anjali Bansal,Biryani,Bir_003,5,152.25,101.1,0.05,761.25,723.18
+1105,2024-12-06, Anjali Bansal,Chole Bhature,Cho_006,1,91.71,60.66,0.07,91.71,85.59
+962,2024-12-06, Rahul Tiwari,Chole Bhature,Cho_006,3,91.71,60.66,0.05,275.13,261.37
+963,2024-12-07, Isha Grover,Dhokla,Dho_008,5,50.85,30.33,0.08,254.25,234.74
+964,2024-12-07, Isha Kaul,Biryani,Bir_003,4,152.25,101.1,0.08,609,562.28
+965,2024-12-07, Vikram Menon,Idli Sambhar,Idl_012,4,56.33,35.385,0.03,225.32,218.87
+966,2024-12-08, Sneha Kapoor,Pani Puri,Pan_019,5,15.15,5.055,0.05,75.75,71.96
+967,2024-12-08, Sneha Verma,Kheer,Khe_014,3,65.65,40.44,0.05,196.95,187.1
+968,2024-12-09, Isha Mahajan,Chicken Curry,Chi_005,3,202.8,131.43,0.07,608.4,567.81
+969,2024-12-09, Rahul Roy,Butter Chicken,But_004,1,222.54,151.65,0.07,222.54,206.65
+970,2024-12-09, Ravi Ghosh,Palak Paneer,Pal_017,1,161.6,101.1,0.08,161.6,149.2
+971,2024-12-12, Sneha Mehta,Kheer,Khe_014,5,65.65,40.44,0.05,328.25,311.83
+972,2024-12-13, Neha Pandey,Idli Sambhar,Idl_012,5,56.33,35.385,0.05,281.65,267.56
+973,2024-12-14, Rahul Sinha,Gulab Jamun,Gul_011,2,35.35,20.22,0.05,70.7,67.16
+974,2024-12-14, Vikram Jain,Palak Paneer,Pal_017,5,161.6,101.1,0.05,808,767.6
+975,2024-12-15, Neha Pandey,Veg Pulao,Veg_025,5,80.8,50.55,0.08,404,373.01
+976,2024-12-16, Isha Mahajan,Dhokla,Dho_008,2,50.85,30.33,0.03,101.7,98.79
+977,2024-12-16, Priya Basu,Pani Puri,Pan_019,3,15.15,5.055,0.05,45.45,43.17
+978,2024-12-16, Rohit Mukherjee,Veg Pulao,Veg_025,4,80.8,50.55,0.05,323.2,307.04
+979,2024-12-16, Vikram Iyer,Palak Paneer,Pal_017,3,161.6,101.1,0.05,484.8,460.56
+980,2024-12-17, Priya Basu,Mutton Rogan Josh,Mut_016,5,272.7,181.98,0.07,1363.5,1272.55
+981,2024-12-17, Rahul Roy,Gulab Jamun,Gul_011,3,35.35,20.22,0.03,106.05,103.01
+982,2024-12-19, Rohit Dey,Kathi Roll,Kat_013,1,75.75,50.55,0.03,75.75,73.58
+983,2024-12-20, Priya Sarkar,Mutton Rogan Josh,Mut_016,5,272.7,181.98,0.05,1363.5,1295.32
+984,2024-12-21, Isha Grover,Paneer Tikka,Pan_018,3,182.73,121.32,0.05,548.19,520.78
+985,2024-12-21, Priya Paul,Kheer,Khe_014,4,65.65,40.44,0.07,262.6,243.85
+986,2024-12-22, Isha Mahajan,Pav Bhaji,Pav_020,3,70.7,45.495,0.07,212.1,197.95
+987,2024-12-23, Vikram Menon,Veg Pulao,Veg_025,3,80.8,50.55,0.08,242.4,223.8
+988,2024-12-25, Isha Mahajan,Paneer Tikka,Pan_018,2,182.73,121.32,0.03,365.46,355
+989,2024-12-25, Rahul Tiwari,Gulab Jamun,Gul_011,5,35.35,20.22,0.05,176.75,167.91
+990,2024-12-26, Rahul Tripathi,Rajma Chawal,Raj_021,2,101.09,70.77,0.07,202.18,188.69
+991,2024-12-27, Amit Sharma,Paneer Tikka,Pan_018,2,182.73,121.32,0.05,365.46,347.18
+992,2024-12-28, Rohit Basu,Veg Pulao,Veg_025,5,80.8,50.55,0.05,404,383.8
+993,2024-12-29, Amit Joshi,Paneer Tikka,Pan_018,2,182.73,121.32,0.07,365.46,341.08
+994,2024-12-29, Neha Roy,Dal Makhani,Dal_007,3,141.74,90.99,0.05,425.22,403.95
